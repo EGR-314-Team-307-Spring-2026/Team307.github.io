@@ -11,8 +11,8 @@ tags:
 Spring - 202x<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
-Professor Kevin Nichols<br>
-
+Professor <br>
+Kevin Nichols
   
 
 </center>
