@@ -28,7 +28,10 @@ _Table #: Project Roles and Duties_
 | Member 1 |                                |                                 |                                |
 | Member 2 |                                |                                 |                                |
 | Member 3 |                                |                                 |                                |
-| Member 4 |                                |                                 |                                |
+| JT Harrison |    Text                            |              Phone Call                   |              Email                  |
+| Member 5 |                                |                                 |                                |
+| Member 6 |                                |                                 |                                |
+
 
 ### Communication Procedures
 
