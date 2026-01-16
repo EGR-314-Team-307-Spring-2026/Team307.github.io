@@ -7,8 +7,8 @@ tags:
 <center>
 <font size="8">Project Name<br>
 <font size="5">Team 307<br>
-**Submission: month, DD, YYYY**<br>
-Spring - 202x<br>
+**Submission: Jan 18, 2026**<br>
+Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
 Professor <br>
@@ -35,3 +35,5 @@ Kevin Nichols
 | Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) |
 | Name #3                | link |
 | Name #4                | link |
+| JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) |
+| Name #6                | link |
