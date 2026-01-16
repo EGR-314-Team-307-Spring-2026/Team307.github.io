@@ -13,7 +13,7 @@ _Table #: Project Roles and Duties_
 | Meeting leader (Elisabeth Sabbagh)   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
 | Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
 | Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
-| Project monitor (JT Harrison)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
+| Project monitor (Donovan Calderon)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 ## Communication Channels
 
@@ -26,7 +26,7 @@ _Table #: Project Roles and Duties_
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
 | Member 1 |              Text                  |               Phone Call                  |             Email                   |
-| Member 2 |          Text                      |                Phone Call                 |               Email                 |
+| Donovan Calderon |          Text                      |                Phone Call                 |               Email                 |
 | Elisabeth Sabbagh|               text              |                   Phone Call           |              Email                  |
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
 | Member 5 |               Text                 |               Phone Call                  |                Email                |
