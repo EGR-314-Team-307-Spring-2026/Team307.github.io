@@ -13,7 +13,7 @@ _Table #: Project Roles and Duties_
 | Meeting leader    | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
 | Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
 | Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
-| Project monitor   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
+| Project monitor (JT Harrison)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 ## Communication Channels
 
@@ -25,33 +25,31 @@ _Table #: Project Roles and Duties_
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
-| Member 1 |                                |                                 |                                |
-| Member 2 |                                |                                 |                                |
-| Member 3 |                                |                                 |                                |
+| Member 1 |              Text                  |               Phone Call                  |             Email                   |
+| Member 2 |          Text                      |                Phone Call                 |               Email                 |
+| Elisabeth Sabbagh|               text              |                   Phone Call           |              Email                  |
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
-| Member 5 |                                |                                 |                                |
-| Member 6 |                                |                                 |                                |
+| Member 5 |               Text                 |               Phone Call                  |                Email                |
+| Member 6 |               Text                 |                   Phone Call              |                Email                |
 
 
 ### Communication Procedures
 
 Then, answer the following question as a team:
 
-* Discord was the agreed .....
-* It is expected a responce of ... on the agreed timeframe of ....
-* John Doe with be the point of contact for instructor correspondence? Who is responsible?
-  * Will that be communicated with ... back to the group.
+* Texting was the agreed upon way to communicate with one another
+* A response to any texts that require it are expected within a 3-4 hours of the text being sent.
+* Elisabeth Sabbagh with be the point of contact for instructor correspondence
 
 ### Meeting Schedule and Coordiation
 
 >Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
 
-* Team will meet ...
-* It with be a ...(face-to-face or virtually)... type of meeting.
-* Reminders for the meetings will be by ....
-* Changes to this schedule will be ....
-* Accountability issuse will .....
-* For records of accountablity will be noted in the minutes... 
+* Team will meet when the group agrees we all need to meet for an assignment
+* It with be a virtual type of meeting.
+* Reminders for the meetings will be by Text Message
+* Changes to this schedule will be discussed first before finalized and then put out via a text message to the group text chat
+* Outside of agreed upon meeting times we will always talk in class about where everyone is at with their parts of any assignment
 
 ### Team Coordination & Accountability
 
@@ -66,4 +64,4 @@ Then, answer the following question as a team:
 
 #### Conflict Recognition & Resolution
 
-> List the steps and means of documenting issuses that lead to involving the instructor in a "Pink Slip" processor. It is best to be **proactive** in resolving these issues early in the semester!
+For conflicts, we will first discuss within the group to see if there is a solution we can make happen. If the issue is unable to be solved, we will then make a meeting with a professor to see if a solution is possible that way instead.
