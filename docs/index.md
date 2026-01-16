@@ -34,6 +34,6 @@ Kevin Nichols
 | Name #1                | [John Doe](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
 | Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) |
 | Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) |
-| Name #4                | link |
+| Abriana Poola             | [DataSheet](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
 | JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) |
 | Name #6                | link |
