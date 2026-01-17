@@ -27,7 +27,7 @@ _Table #: Project Roles and Duties_
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
 | Member 1 |              Text                  |               Phone Call                  |             Email                   |
 | Donovan Calderon |          Text                      |                Phone Call                 |               Email                 |
-| Elisabeth Sabbagh|               text              |                   Phone Call           |              Email                  |
+| Elisabeth Sabbagh|               Text              |                   Phone Call           |              Email                  |
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
 | Member 5 |               Text                 |               Phone Call                  |                Email                |
 | Member 6 |               Text                 |                   Phone Call              |                Email                |
@@ -39,7 +39,7 @@ Then, answer the following question as a team:
 
 * Texting was the agreed upon way to communicate with one another
 * A response to any texts that require it are expected within a 3-4 hours of the text being sent.
-* Elisabeth Sabbagh with be the point of contact for instructor correspondence
+* Elisabeth Sabbagh will be the point of contact for instructor correspondence
 
 ### Meeting Schedule and Coordiation
 
