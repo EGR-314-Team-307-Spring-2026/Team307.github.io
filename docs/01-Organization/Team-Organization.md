@@ -12,9 +12,9 @@ The team came about this team charter ....(add in your words datails on why this
 
 ## Product Mission Statement
 
-Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
+> The mission of the amphibious trash collector is to autonomously remove debris from both aquatic and terrestrial environments, improving environmental cleanliness and accessibility through a modular, exploration
+> inspired robotic platform.
 
- > "Google's mission is to organize the world's information and make it universally accessible and useful."
 
 ## Other Organizational Information
 
