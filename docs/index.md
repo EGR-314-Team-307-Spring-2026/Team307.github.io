@@ -36,4 +36,4 @@ Kevin Nichols
 | Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) | Major |
 | Abriana Poola             | [DataSheet](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) | Major |
 | JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) | Major |
-| Name #6                | link | Major |
+| Garrett Wiebke                | [DataSheet](https://garrettwiebke.github.io/GarrettWiebke314.github.io/) | Robotics |
