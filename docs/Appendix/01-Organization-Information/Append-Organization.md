@@ -4,8 +4,6 @@ title: Appendix - Extra Team Organization Information
 
 ## Roles & Responsibilities
 
->Define the roles and responsibilities that will be filled by the team members as you work to achieve your team mission. The table below is an example of some roles that each team should have; as you organize your team, you may identify other roles that would help your team successfully fulfill the team mission. ***See assignment for more details.***
-
 _Table #: Project Roles and Duties_
 
 | **Role**          | **Duties**                                                                                                                                |
@@ -19,8 +17,6 @@ _Table #: Project Roles and Duties_
 
 ### Team Communication Method
 
->This is an area where teams often get into trouble. You should specific the channel(s)/method(s) for the team communication along with notes on the expectation in responce time.
-
 *Table #: Team Members' Prefered Communication Modes*
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
@@ -29,7 +25,7 @@ _Table #: Project Roles and Duties_
 | Donovan Calderon |          Text                      |                Phone Call                 |               Email                 |
 | Elisabeth Sabbagh|               text              |                   Phone Call           |              Email                  |
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
-| Member 5 |               Text                 |               Phone Call                  |                Email                |
+| Abriana Poola |               Text                 |             Email               |                Phone Call                |
 | Member 6 |               Text                 |                   Phone Call              |                Email                |
 
 
@@ -43,8 +39,6 @@ Then, answer the following question as a team:
 
 ### Meeting Schedule and Coordiation
 
->Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
-
 * Team will meet when the group agrees we all need to meet for an assignment
 * It with be a virtual type of meeting.
 * Reminders for the meetings will be by Text Message
@@ -53,14 +47,13 @@ Then, answer the following question as a team:
 
 ### Team Coordination & Accountability
 
-* Assignments are submitted ....
-* To Ensure that each team member has the knowledge and skill required, the team will ......
-* Feedback is to and acted on ....
-* Missed contributions/assignments/actions will be ...
-* Hold one another accountable to the expectations described in this charter.
-* Recognize that a team member is underperforming.
-* Help an underperforming team member improve.
-* What are the consequences if an underperforming team member does not improve (e.g., pink slip)?
+* Assignments are submitted by the day it is due. If needed, the team will discuss if late policy is needed which is dependent on assingment and how the team feels.
+* To Ensure that each team member has the knowledge and skill required, the team will work with one another to help achieve the end goal. The team can meet before the course starts, office hours and other various available time to recieve additional support from other members or higher ups (Professors/TAs).
+* Feedback is to be acted on throughout the course time (immediately when received), ensuring the documentation is updated based on what feedback was given for improvement. 
+* Missed contributions/assignments/actions will be talked to with the individual as a team and seeing if they need additional support to ensure its completion and satisfactory. 
+* Team will keep each other updated about their projects and talk if there is arising issues
+* When a team member is underperforming; rather than cold-shouldering them, the team will talk and take the necessary actions to help the individual.
+* The main consequence of no further improvements with underperformance is pink slip.
 
 #### Conflict Recognition & Resolution
 
