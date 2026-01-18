@@ -10,7 +10,8 @@ _Table #: Project Roles and Duties_
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | Meeting leader (Elisabeth Sabbagh)   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
 | Meeting recorder (Garrett Wiebke)  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
-| Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Assignment Co-leader 1 (JT Harrison)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Assignment Co-leader 2 (Abriana Poola)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor (Donovan Calderon)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 ## Communication Channels
@@ -32,19 +33,17 @@ _Table #: Project Roles and Duties_
 
 ### Communication Procedures
 
-Then, answer the following question as a team:
-
-* Texting was the agreed upon way to communicate with one another
+* Texting was the agreed upon way to communicate with one another, and if un able to reach a phone call or email will be done.
 * A response to any texts that require it are expected within a 3-4 hours of the text being sent.
-* Elisabeth Sabbagh will be the point of contact for instructor correspondence
+* Elisabeth Sabbagh will be the point of contact for instructor correspondence. The lead will send and recieve any information provided by the instructor. This will be communicated with the group either in or a combination of group text chat, email and scheduled weekly meetings.
 
 ### Meeting Schedule and Coordiation
 
-* Team will meet when the group agrees we all need to meet for an assignment
-* It with be a virtual type of meeting.
-* Reminders for the meetings will be by Text Message
-* Changes to this schedule will be discussed first before finalized and then put out via a text message to the group text chat
-* Outside of agreed upon meeting times we will always talk in class about where everyone is at with their parts of any assignment
+* Team will meet in class as well as when the group agrees we all need to meet for an assignment. This will be either during the week or weekend as well. If any team member is unable to make it, we will relay the information.
+* It with be a virtual type of meeting and if urgent will be face to face.
+* Reminders for the meetings will be by text message and verbally during class times.
+* Changes to this schedule will be discussed first before finalized and then put out via a text message to the group text chat.
+* Outside of agreed upon meeting times we will always talk in class about where everyone is at with their parts of any assignment and adjust if needed.
 
 ### Team Coordination & Accountability
 

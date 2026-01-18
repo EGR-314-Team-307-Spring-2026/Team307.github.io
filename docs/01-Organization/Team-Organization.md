@@ -18,4 +18,4 @@ The team came about this team charter to make sure a real industry engineering t
 
 ## Other Organizational Information
 
-Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://embedded-systems-design.github.io/template_report/Appendix/01-Organization-Information/Append-Organization/)
+Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/01-Organization-Information/Append-Organization/)
