@@ -10,8 +10,8 @@ _Table #: Project Roles and Duties_
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | Meeting leader (Elisabeth Sabbagh)   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
 | Meeting recorder (Garrett Wiebke)  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
-| Assignment Co-leader 1 (JT Harrison)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
-| Assignment Co-leader 2 (Abriana Poola)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Assignment Leader (JT Harrison)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Assignment Co-leader (Abriana Poola)| Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor (Donovan Calderon)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
 ## Communication Channels
