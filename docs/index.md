@@ -29,11 +29,11 @@ Kevin Nichols
 
 ## Team Members Datasheet links
 
-| **Team Member**        |**Ind Datasheet Links** |
-| ---------------------- | -----------------------|
-| Name #1                | [John Doe](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
-| Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) |
-| Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) |
-| Abriana Poola             | [DataSheet](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
-| JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) |
-| Name #6                | link |
+| **Team Member**        |**Ind Datasheet Links** |**Major**|
+| ---------------------- | -----------------------|-----------------------|
+| Name #1                | [John Doe](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) | Major |
+| Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) | Robotics |
+| Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) | Major |
+| Abriana Poola             | [DataSheet](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) | Major |
+| JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) | Major |
+| Garrett Wiebke                | [DataSheet](https://garrettwiebke.github.io/GarrettWiebke314.github.io/) | Robotics |

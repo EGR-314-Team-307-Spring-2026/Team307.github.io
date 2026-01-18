@@ -9,7 +9,7 @@ _Table #: Project Roles and Duties_
 | **Role**          | **Duties**                                                                                                                                |
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | Meeting leader (Elisabeth Sabbagh)   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                                        |
-| Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
+| Meeting recorder (Garrett Wiebke)  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
 | Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor (Donovan Calderon)  | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 
@@ -23,10 +23,11 @@ _Table #: Project Roles and Duties_
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
 | Member 1 |              Text                  |               Phone Call                  |             Email                   |
 | Donovan Calderon |          Text                      |                Phone Call                 |               Email                 |
-| Elisabeth Sabbagh|               text              |                   Phone Call           |              Email                  |
+| Elisabeth Sabbagh|               Text              |                   Phone Call           |              Email                  |
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
-| Abriana Poola |               Text                 |             Email               |                Phone Call                |
-| Member 6 |               Text                 |                   Phone Call              |                Email                |
+| Abriana Poola |               Text                 |             Email               |                Phone Call                 |
+| Garrett Wiebke |               Text                 |                   Phone Call              |                Email                |
+
 
 
 ### Communication Procedures
@@ -35,7 +36,7 @@ Then, answer the following question as a team:
 
 * Texting was the agreed upon way to communicate with one another
 * A response to any texts that require it are expected within a 3-4 hours of the text being sent.
-* Elisabeth Sabbagh with be the point of contact for instructor correspondence
+* Elisabeth Sabbagh will be the point of contact for instructor correspondence
 
 ### Meeting Schedule and Coordiation
 

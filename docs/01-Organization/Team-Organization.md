@@ -6,15 +6,15 @@ tags:
 
 ## Team Charter
 
-> "ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves." (ASU's Charter)
+> Team 307 will operate as a professional engineering team to design, develop, and integrate an embedded systems solution for an amphibious trash collecting device/rover. The team will emulate industry best practices (Six sigma, Lean principles) by establishing defined technical roles, adhering to structured milestones and deadlines, and maintaining clear, consistent communication across team members. Each member will take ownership of a subsystem aligned with their technical strengths while collaborating closely with teammates to ensure seamless system integration, continuous collaboration, and iterative improvement throughout the design lifecycle.  
 
-The team came about this team charter ....(add in your words datails on why this is your team's charter)
+The team came about this team charter to make sure a real industry engineering team is simulated while practicing principles you'd commonly find in the corporate workplace and practice documenting and presenting KPI (key performance indicators) for real engineering projects. 
 
 ## Product Mission Statement
 
-Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
+> The mission of the amphibious trash collector is to autonomously remove debris from both aquatic and terrestrial environments, improving environmental cleanliness and accessibility through a modular, exploration
+> inspired robotic platform.
 
- > "Google's mission is to organize the world's information and make it universally accessible and useful."
 
 ## Other Organizational Information
 
