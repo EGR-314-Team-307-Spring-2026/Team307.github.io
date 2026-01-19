@@ -28,7 +28,7 @@ Kevin Nichols
 
 | **Team Member**        |**Ind Datasheet Links** |**Major**|
 | ---------------------- | -----------------------|-----------------------|
-| Name #1                | [John Doe](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) | Major |
+| Zane Brauer                | [DataSheet](https://zane047.github.io/) | Electrical Systems |
 | Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) | Robotics |
 | Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) | Major |
 | Abriana Poola             | [DataSheet](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) | Major |
