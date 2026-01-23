@@ -20,14 +20,15 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Rover Suspension System | 2 | Steering Capabilities |
-| 3 | Twin motor | 4 | Omni wheels |
-| 5 | Propeller / wheel design | 6 | Tank treads |
-| 7 | Amphibious design (Rover into Submarine or surface floater) | 8 | Ballast tanks |
-| 9 | NASA Design Wheels | 10 | Raft dispenser |
-| 11 | 4x4 capability | 12 | Parachute system |
-| 13 | Butterfly drive train | 14 | H drive train |
-| 15 | Wings for gliding | 16 | Rocket thruster |
+| 1 | Rover Suspension System | 9 | Ballast tanks |
+| 2 | Steering Capabilities | 10 | NASA Design Wheels |
+| 3 | Twin motor | 11 | Raft dispenser |
+| 4 | Omni wheels | 12 | 4x4 capability |
+| 5 | Propeller / wheel design | 13 | Parachute system |
+| 6 | Tank treads | 14 | Butterfly drive train |
+| 7 | Amphibious design (Rover into Submarine or surface floater) | 15 | H drive train |
+| 8 | Propeller / wheel design | 16 | Wings for gliding |
+|  |  | 17 | Rocket thruster |
 
 ---
 
@@ -35,14 +36,14 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Atmospheric sensor | 2 | Hygrometer |
-| 3 | Infrared sensor | 4 | Motion sensor |
-| 5 | Light panel activation sensor | 6 | High res camera |
-| 7 | Lidar scanner | 8 | Sonic sensors |
-| 9 | Weather proof | 10 | Radar Scanning |
-| 11 | Spectrometer | 12 | Altimeter |
-| 13 | Geiger counter | 14 | Chemistry Camera (Curiosity rover) |
-| 15 | SuperCam (Perseverance rover) | 16 | PXIL |
+| 1 | Atmospheric sensor | 9 | Weather proof |
+| 2 | Hygrometer | 10 | Radar Scanning |
+| 3 | Infrared sensor | 11 | Spectrometer |
+| 4 | Motion sensor | 12 | Altimeter |
+| 5 | Light panel activation sensor | 13 | Geiger counter |
+| 6 | High res camera | 14 | Chemistry Camera (Curiosity rover) |
+| 7 | Lidar scanner | 15 | SuperCam (Perseverance rover) |
+| 8 | Sonic sensors | 16 | PXIL |
 
 ---
 
@@ -50,15 +51,15 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Water sample collector | 2 | Rock / Earth sample collector |
-| 3 | Metal blade for bulldozing | 4 | Robotic arm |
-| 5 | Sieve | 6 | Different mesh screens for the sieve |
-| 7 | Plant collector (samples) | 8 | Drill to make samples |
-| 9 | Shovel, Hammer, and Drill for excavation | 10 | Brush |
-| 11 | Vacuum | 12 | Dust pan |
-| 13 | Rock pick | 14 | On-board robot manipulator |
-| 15 | Centrifuge for analysis | 16 | Jack hammer |
-| 17 | Acid storage |  |
+| 1 | Water sample collector | 10 | Brush |
+| 2 | Rock / Earth sample collector | 11 | Vacuum |
+| 3 | Metal blade for bulldozing | 12 | Dust pan |
+| 4 | Robotic arm | 13 | Rock pick |
+| 5 | Sieve | 14 | On-board robot manipulator |
+| 6 | Different mesh screens for the sieve | 15 | Centrifuge for analysis |
+| 7 | Plant collector (samples) | 16 | Jack hammer |
+| 8 | Drill to make samples | 17 | Acid storage |
+| 9 | Shovel, Hammer, and Drill for excavation |  |  |
 
 ---
 
@@ -66,12 +67,12 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Long-lasting battery pack | 2 | Solar panels |
-| 3 | Overheating shutdown, if internal temp too hot | 4 | Water cooling |
-| 5 | Liquid cooling (coolant, not water) | 6 | Water filtration system |
-| 7 | Wind turbine | 8 | Water wheels |
-| 9 | Hydrogen powered | 10 | Hydrolysis battery |
-| 11 | Wall plug Power NA | 12 | Nuclear fusion battery |
+| 1 | Long-lasting battery pack | 7 | Wind turbine |
+| 2 | Solar panels | 8 | Water wheels |
+| 3 | Overheating shutdown, if internal temp too hot | 9 | Hydrogen powered |
+| 4 | Water cooling | 10 | Hydrolysis battery |
+| 5 | Liquid cooling (coolant, not water) | 11 | Wall plug Power NA |
+| 6 | Water filtration system | 12 | Nuclear fusion battery |
 
 ---
 
@@ -79,13 +80,13 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Human-machine - interface | 2 | Microphone / Speaker set for communication |
-| 3 | Bluetooth connection | 4 | Wifi app |
-| 5 | Alarm system | 6 | A hidden button that forces rover to stop completely |
-| 7 | Built-in speakers (aux) | 8 | RGB headlights |
-| 9 | RGB detection light flash | 10 | USB-C ports for external connection |
-| 11 | Light panel activation sensor | 12 | Live feed camera |
-| 13 | Video screen prompt | 14 | On board Morse code system |
+| 1 | Human-machine - interface | 8 | RGB headlights |
+| 2 | Microphone / Speaker set for communication | 9 | RGB detection light flash |
+| 3 | Bluetooth connection | 10 | USB-C ports for external connection |
+| 4 | Wifi app | 11 | Light panel activation sensor |
+| 5 | Alarm system | 12 | Live feed camera |
+| 6 | A hidden button that forces rover to stop completely | 13 | Video screen prompt |
+| 7 | Built-in speakers (aux) | 14 | On board Morse code system |
 
 ---
 
@@ -93,12 +94,12 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Waterproof coating | 2 | Anti-corrosive coating |
-| 3 | Internal water sensor to check for leaks | 4 | External Water Sensor |
-| 5 | Durable, lightweight, detachable housing | 6 | Plastic casings for internal PCBs |
-| 7 | High durability steel chassis | 8 | Internal controller |
-| 9 | Alarm recovery system (SOS) | 10 | Low-profile internal PCB |
-| 11 | Internal fire suppression system |  |
+| 1 | Waterproof coating | 7 | High durability steel chassis |
+| 2 | Anti-corrosive coating | 8 | Internal controller |
+| 3 | Internal water sensor to check for leaks | 9 | Alarm recovery system (SOS) |
+| 4 | External Water Sensor | 10 | Low-profile internal PCB |
+| 5 | Durable, lightweight, detachable housing | 11 | Internal fire suppression system |
+| 6 | Plastic casings for internal PCBs |  |  |
 
 ---
 
@@ -106,14 +107,13 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 | Rank | Idea | Rank | Idea |
 |---|---|---|---|
-| 1 | Distance control based on temperature | 2 | Speed control based on temperature |
-| 3 | Device-hosted AI system | 4 | Self-driving capabilities |
-| 5 | Drone bay built into the rover | 6 | Fiber optic cables |
-| 7 | 3d printer for quickly making replacement parts | 8 | Printer |
-| 9 | Fax machine | 10 | RTx5090 |
+| 1 | Distance control based on temperature | 6 | Fiber optic cables |
+| 2 | Speed control based on temperature | 7 | 3d printer for quickly making replacement parts |
+| 3 | Device-hosted AI system | 8 | Printer |
+| 4 | Self-driving capabilities | 9 | Fax machine |
+| 5 | Drone bay built into the rover | 10 | RTx5090 |
 
 ---
-
 
 ## 3 Product Concepts
 
