@@ -129,3 +129,4 @@ Over 100 ideas were generated during the ideation phase and organized into seven
 
 3.
 
+## Final Design Concept
