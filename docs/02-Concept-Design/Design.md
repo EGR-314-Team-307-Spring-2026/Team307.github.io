@@ -12,7 +12,7 @@ Our project, an amphibious trash collector, is intended for individuals who stud
 
 ## Generated Ideas and Ranking
 
-Over 100 ideas were generated during the ideation phase and organized into seven functional themes, with concepts ranked based on feasibility and alignment with project requirements. The complete, unfiltered list of generated ideas is provided in Appendix - [02 Concept Generations](../Appendix/02-Concept-Generations/Append-Concepts/).
+Over 100 ideas were generated during the ideation phase and organized into seven functional themes, with concepts ranked based on feasibility and alignment with project requirements. The complete, unfiltered list of generated ideas is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-Concept-Genrations/Append-Concepts/).
 
 ---
 
