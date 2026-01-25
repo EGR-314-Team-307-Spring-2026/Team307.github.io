@@ -4,15 +4,27 @@ title: Concept Generation and Design Ideation
 
 ## What is the goal of our exploration device?
 
-With team 307’s exploration device being an amphibious vehicle, the primary goal is to traverse unknown land and water environments. Our system will have the capability to collect samples or waste from land as well as water and examine unknown materials and analyze how known materials are affected by excess landfill. The device will navigate effectively thru non-ideal conditions and upon sensing water, automatically transform or be able to be transformed with external manipulation to navigate either through terrains and surface of water i.e. floatation devices or be able to be fully submerged. As an exploration platform, it is expected to be on long missions away from a base of operations and will need to be self-sufficient by being weatherproof and being able to self charge.
+With team 307’s exploration device being an amphibious vehicle, the primary goal is to traverse unknown bodies of land and water. Our 
+system will have the capabilities to collect waste but to geographically map and collect samples from land and water; classyfing the 
+materials and their effect on the envirmonment, potentially being able to trace the objects origin. The device will navigate 
+effectively thru non-ideal conditions, in both land and water. Upon sensing water the sensors will send data to the microcontroller 
+changing the "settings" to be able to adjust for the terrian change, keeping its systems safe. As an exploration platform, it is 
+expected to be on long missions away from a base of operations and will need to be self-sufficient by being weatherproof and being able 
+to self charge or calculating the enough energy to keep in order to return.
 
 ## Who is our audience?
 
-Our project, an amphibious trash collector, is intended for individuals who study both freshwater and saltwater ecosystems as well as those within the area of geography. The system is equipped with modular components that allow it to collect environmental samples while scouting bodies of water and removing human waste. Beyond aquatic environments, the system is also capable of traveling on land to map terrains as well as analyze natural features such as landforms, climate, weather patterns, rivers, and ecosystems. Overall, this project is well suited for individuals in aquatic sciences as well as those focused on physical geography.
+Our project an amphibious trash collector, is intended for individuals who study in the aquatic ecosystems as well as 
+those within the area of geography. The system is equipped with modular components that allow it to collect environmental samples while 
+scouting bodies of water and land, removing human waste in the process. Beyond aquatic environments, the system is also capable of 
+traveling on land, analyzing natural features such as landforms, climate, weather patterns, rivers, ecosystems, and mapping terrains.
+Overall, this project is well suited for individuals in aquatic sciences as well as those focused on physical geography.
 
 ## Generated Ideas and Ranking
 
-Over 100 ideas were generated during the ideation phase and organized into seven functional themes, with concepts ranked based on feasibility and alignment with project requirements. The complete, unfiltered list of generated ideas is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-Concept-Genrations/Append-Concepts/).
+During the ideation phase over 100 ideas were brought up as a team and organized into seven functional themes. Each theme was later put 
+in concepts and ranked based on feasibility and alignment with project requirements. The complete, unfiltered list of generated ideas
+is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-ConceptGenrations/Append-Concepts/).
 
 ---
 
