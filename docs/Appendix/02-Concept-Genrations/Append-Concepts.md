@@ -33,3 +33,138 @@ The following table presents the complete, unfiltered list of all 100 ideas.
 | 23 | Chemistry Camera (Curiosity rover) | 48 | Metal blade for bulldozing | 73 | Lightweight 3D printed filament chassis | 98 | Speed control based on temperature |
 | 24 | Geiger counter | 49 | Sonic sensors | 74 | Rock / Earth sample collector | 99 | Hygrometer |
 | 25 | Solar panels | 50 | USB-C ports for external connection | 75 | Water sample collector | 100 | Altimeter |
+
+# Amphibious Trash Collector – Feature Groupings
+
+The amphibious trash collector is designed as a multi-role platform capable of scientific testing, environmental interaction, efficient power management, and advanced mobility.  
+For clarity, the following groupings do not represent separate systems, but instead organize the ideation list to highlight the primary focus of each feature set within a single integrated design. This 
+structure allows concept development to align with the specific focus of each grouping.
+The full ideation list (including experimental/concept-only features) is presented below.
+
+
+
+## 1. Testing & Scientific Efficiency
+*Focuses on the collector’s ability to gather, analyze, and process environmental and material data accurately and reliably.*
+
+### Features
+- Drill (sample collection)  
+- Spectrometer  
+- Planetary Instrument for X-Ray Lithochemistry (PXIL)  
+- Chemistry Camera (Curiosity rover)  
+- SuperCam (Perseverance rover)  
+- Geiger counter  
+- Atmospheric sensor  
+- Hygrometer  
+- Altimeter  
+- Radar scanning  
+- Lidar scanner  
+- Infrared sensor  
+- High-resolution camera  
+- Live-feed camera  
+- Magnifying glass  
+- Temperature-specific sample collection (hot/cold)  
+- Rock / Earth sample collector  
+- Water sample collector  
+- Plant sample collector  
+- Separate liquid / solid bins  
+- Sieve with interchangeable mesh screens  
+- Internal controller  
+- Device-hosted AI system  
+
+
+
+## 2. Trash Collection & Environmental Interaction Efficiency
+*Emphasizes debris handling, excavation, cleanup, and controlled interaction with the environment.*
+
+### Features
+- Brush  
+- Dust pan  
+- Vacuum  
+- Metal blade (bulldozing)  
+- Shovel  
+- Hammer  
+- Rock pick  
+- Drill (excavation use)  
+- Jack hammer  
+- Trash / material sorting via bins  
+- Acid storage (controlled material processing)  
+- Water filtration system  
+- External water sensor (environmental detection)  
+
+
+
+## 3. Power & Thermal Efficiency
+*Centers on energy generation, storage, distribution, and thermal regulation for long-duration operation.*
+
+### Features
+- Long-lasting battery pack  
+- Solar panels  
+- Wall plug power (North America)  
+- Hydrogen-powered (supplemental)  
+- Wind turbine  
+- Water wheels  
+- Water cooling  
+- Liquid coolant-based cooling  
+- Overheating shutdown  
+- Speed control based on temperature  
+- Distance control based on temperature  
+- Internal fire suppression system  
+- Anti-corrosive coating  
+- Waterproof coating  
+- Weather-proof design  
+
+
+
+## 4. Travel, Mobility & Operational Efficiency
+*Highlights mobility systems, terrain adaptability, communication, and structural design for safe operation in complex environments.*
+
+### Features
+- Rover suspension system  
+- Steering capabilities  
+- 4×4 drive capability  
+- Twin motor system  
+- Omni wheels  
+- Tank treads  
+- NASA-inspired wheels  
+- Propeller / wheel hybrid design  
+- Amphibious design (land + surface water)  
+- Ballast tanks  
+- Raft dispenser  
+- High-durability steel chassis  
+- Lightweight detachable housing  
+- Plastic casings for internal PCBs  
+- Low-profile internal PCB layout  
+- Modular components  
+- Robotic arm / on-board manipulator  
+- Drone bay integration  
+- Motion sensor  
+- Sonic sensors  
+- RGB headlights & detection light flash  
+- Light panel activation sensor  
+- Video screen interface  
+- Built-in speakers (aux)  
+- Microphone / speaker communication system  
+- USB-C ports  
+- Wi-Fi control  
+- Bluetooth connectivity  
+- Human–machine interface  
+- Alarm system & SOS recovery  
+- Hidden emergency stop button  
+
+
+## 5. Unrealistic / Concept-Only Items
+*Speculative or future-facing technologies retained for conceptual exploration; excluded from functional design.*
+
+### Features
+- Nuclear fusion battery  
+- Hydrolysis battery (as primary mobile power)  
+- Rocket thruster (surface mobility)  
+- Wings for gliding  
+- Parachute system (without descent stage)  
+- Butterfly drivetrain (conceptual)  
+- H-drivetrain (conceptual)  
+- Full rover → submarine transformation  
+- 3D printer capable of structural metal part replacement  
+- Fax machine  
+
+
