@@ -192,6 +192,9 @@ WALL‑E–style power module is primarily about:
 * Energy & thermal presence (compact battery bricks, integrated cooling, solar panel “arms”).
 * Operational robustness (impact-resistant casing, water- and debris-proof, easy field maintenance).
 
+![Design Concept 3](rover.png)
+
+
 ## TRAVEL, MOBILITY & OPERATIONAL EFFICIENCY
 
 The hybrid concept is primarily about:
@@ -204,6 +207,8 @@ The hybrid concept is primarily about:
 ![Design Concept 1](Design_3.png)
 
 ![Design Concept 2](Design_2.png)
+
+![Design Concept 2](rover.png)
 
 
 
