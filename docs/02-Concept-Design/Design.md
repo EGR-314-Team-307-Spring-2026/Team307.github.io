@@ -141,4 +141,9 @@ is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spri
 
 3.
 
-## Final Design Concept
+## Final Design Concept##
+Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+
+![Design Concept 1 ](individual-block-diagram.png)
+![Design Concept 2 ](individual-block-diagram.png)
+![Design Concept 3 ](individual-block-diagram.png)
