@@ -208,11 +208,14 @@ The hybrid concept is primarily about:
 
 ![Design Concept 2](Design_2.png)
 
+## Final Design Concept
+Team 307 has selected this model as our final concept for the product. This design effectively showcases the desired features of the amphibious exploration rover that Team 307 is striving to create, such as a 
+durable treading/suspension system, a modular chassis for continuous improvement, and detailed annotations to help the onlooker understand the design concept. (Design Credit - Abriana Poola)
+
 ![Design Concept 2](rover.png)
 
 
 
 
 
-## Final Design Concept
-Showing an example of how to import a screenshot of the Final Design Concept created outside of git and brought into a page.
+
