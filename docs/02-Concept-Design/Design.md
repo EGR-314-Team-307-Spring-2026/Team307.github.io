@@ -127,19 +127,47 @@ is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spri
 
 ---
 
-## 3 Product Concepts
+# 3 Product Concepts (Practical & Usable)
 
-1. Scientific & Environmental Efficiency
+---
 
+## 1. Scientific & Environmental Efficiency
+*Observation, analysis, and sample handling.*
 
+### Key Features
+- Spectrometer, Chemistry Camera, High-resolution camera  
+- Lidar / Radar scanning  
+- Atmospheric & environmental sensors (temperature, humidity, radiation)  
+- Rock, soil, water, and plant sample collectors  
+- Drill & shovel for sampling  
+- Device-hosted AI system for data analysis  
 
+---
 
-2. Power & Thermal Management Efficiency
+## 2. Power & Thermal Management Efficiency
+*Reliable energy and temperature control for long missions.*
 
+### Key Features
+- Long-lasting batteries  
+- Solar panels (primary supplemental energy)  
+- Liquid coolant / water-based cooling  
+- Overheating shutdowns & fire suppression  
+- Weather-proof, corrosion-resistant construction  
 
+---
 
+## 3. Mobility & Operational Efficiency
+*Terrain adaptability, navigation, and basic manipulation.*
 
-3. Mobility & Operational Efficiency
+### Key Features
+- 4×4 drive with twin motors  
+- Suspension system & NASA-inspired wheels  
+- Amphibious capability (limited surface-water operation)  
+- Robotic arm / manipulator  
+- Motion & basic navigation sensors  
+- USB-C / Wi-Fi / Bluetooth connectivity  
+- Emergency stop & basic alarm system  
+
 
 ## Scientific & Environmental Interaction Efficiency
 
