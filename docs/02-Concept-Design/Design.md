@@ -180,6 +180,15 @@ Most of the features are about collecting, moving, and handling samples, which i
 * Sensor Window – helps navigate while collecting, supports operational collection efficiency.
 ![Design Concept 3 ](Design_1.png)
 
+## 2. Power & Thermal Management Efficiency
+
+WALL‑E–style power module is primarily about:
+
+* Structural design language (boxy, modular, low-center-of-gravity).
+* Chassis form factor (stacked energy and control modules, rugged housing).
+* Energy & thermal presence (compact battery bricks, integrated cooling, solar panel “arms”).
+* Operational robustness (impact-resistant casing, water- and debris-proof, easy field maintenance).
+
 ## TRAVEL, MOBILITY & OPERATIONAL EFFICIENCY
 The hybrid concept is primarily about:
 * Structural design language (angular, aggressive, low-profile).
