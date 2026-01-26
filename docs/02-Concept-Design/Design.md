@@ -193,6 +193,7 @@ WALL‑E–style power module is primarily about:
 * Operational robustness (impact-resistant casing, water- and debris-proof, easy field maintenance).
 
 ![Design Concept 3](rover.png)
+[The wheels that were talked about within the rover product concept](https://rebrickable.com/mocs/MOC-78205/zumaidi/wall-e-wheels/#details)
 
 
 ## TRAVEL, MOBILITY & OPERATIONAL EFFICIENCY
@@ -213,6 +214,7 @@ Team 307 has selected this model as our final concept for the product. This desi
 durable treading/suspension system, a modular chassis for continuous improvement, and detailed annotations to help the onlooker understand the design concept. (Design Credit - Abriana Poola)
 
 ![Design Concept 2](rover.png)
+[Lego Wheels that were thought of when designing final concept](https://rebrickable.com/mocs/MOC-78205/zumaidi/wall-e-wheels/#details)
 
 
 
