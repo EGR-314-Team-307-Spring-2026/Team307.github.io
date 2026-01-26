@@ -190,14 +190,19 @@ WALL‑E–style power module is primarily about:
 * Operational robustness (impact-resistant casing, water- and debris-proof, easy field maintenance).
 
 ## TRAVEL, MOBILITY & OPERATIONAL EFFICIENCY
+
 The hybrid concept is primarily about:
+
 * Structural design language (angular, aggressive, low-profile).
 * Chassis form factor (wide stance, rigid geometry).
 * Mobility presence (stability, ground clearance, durability).
 * Operational robustness (impact resistance, enclosure protection).
 
-![Design Concept 1 ](Design_3.png)
-![Design Concept 2 ](Design_2.png)
+![Design Concept 1](Design_3.png)
+
+![Design Concept 2](Design_2.png)
+
+
 
 
 
