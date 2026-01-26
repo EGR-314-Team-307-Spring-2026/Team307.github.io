@@ -129,21 +129,37 @@ is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spri
 
 ## 3 Product Concepts
 
-1.
+1. Scientific & Environmental Efficiency
 
 
 
 
-2.
+2. Power & Thermal Management Efficiency
 
 
 
 
-3.
+3. Mobility & Operational Efficiency
 
-## Final Design Concept
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Scientific & Environmental Interaction Efficiency
+
+Most of the features are about collecting, moving, and handling samples, which is squarely in this group:
+* Bulldozer Arm – lifts samples into compartments, scoops with teeth, debris handling.
+* Two Sample Compartments – organizes collected material, environmental interaction.
+* Sensor Window – helps navigate while collecting, supports operational collection efficiency.
+![Design Concept 3 ](Design_1.png)
+
+## TRAVEL, MOBILITY & OPERATIONAL EFFICIENCY
+The hybrid concept is primarily about:
+* Structural design language (angular, aggressive, low-profile).
+* Chassis form factor (wide stance, rigid geometry).
+* Mobility presence (stability, ground clearance, durability).
+* Operational robustness (impact resistance, enclosure protection).
 
 ![Design Concept 1 ](Design_3.png)
 ![Design Concept 2 ](Design_2.png)
-![Design Concept 3 ](Design_1.png)
+
+
+
+## Final Design Concept
+Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
