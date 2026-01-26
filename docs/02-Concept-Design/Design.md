@@ -202,4 +202,4 @@ The hybrid concept is primarily about:
 
 
 ## Final Design Concept
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+Showing an example of how to import a screenshot of the Final Design Concept created outside of git and brought into a page.
