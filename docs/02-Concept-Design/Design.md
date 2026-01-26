@@ -175,10 +175,13 @@ The full ideation list, including additional features and experimental concepts,
 ## Scientific & Environmental Interaction Efficiency
 
 Most of the features are about collecting, moving, and handling samples, which is squarely in this group:
+
 * Bulldozer Arm – lifts samples into compartments, scoops with teeth, debris handling.
 * Two Sample Compartments – organizes collected material, environmental interaction.
 * Sensor Window – helps navigate while collecting, supports operational collection efficiency.
-![Design Concept 3 ](Design_1.png)
+
+![Design Concept 3](Design_1.png)
+
 
 ## 2. Power & Thermal Management Efficiency
 
