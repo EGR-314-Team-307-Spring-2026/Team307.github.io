@@ -128,6 +128,9 @@ is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spri
 ---
 
 # 3 Product Concepts (Practical & Usable)
+The amphibious trash collector is designed as a multi-role platform capable of scientific testing, environmental interaction, efficient power management, and advanced mobility. For the purposes of concept 
+development, we are focusing on the Big 3 efficiency pillars — the core functional areas that define the collector’s most practical and usable capabilities.
+The full ideation list, including additional features and experimental concepts, can be found in the appendix.
 
 ---
 
