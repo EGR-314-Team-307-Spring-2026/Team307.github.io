@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#header" class="md-skip">
+        <a href="#requirements" class="md-skip">
           Skip to content
         </a>
       
@@ -548,9 +548,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Requirements
     </span>
   </a>
   
@@ -695,9 +695,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Requirements
     </span>
   </a>
   
@@ -720,8 +720,166 @@
 
   <h1>Project Requirements</h1>
 
-<h2 id="header">Header</h2>
-<p>Add content</p>
+<h2 id="requirements">Requirements</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Requirement</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">How the requirement will be met</th>
+<th style="text-align: left;">Requirements to pass/ Failure conditions</th>
+<th style="text-align: left;">Satisfying Requirements</th>
+<th style="text-align: left;">Stretch Goal? (y/n)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Measuring speed</td>
+<td style="text-align: left;">The device will need a module for measuring and reporting the speed of the device as it is used. (Hall effect sensor or Accelerometer.)</td>
+<td style="text-align: left;">Measure speeds up to 10 miles per hour</td>
+<td style="text-align: left;">The system falls short by 10 percent to the target speed.</td>
+<td style="text-align: left;">Sensing; involves detecting and quantifying motion using sensors.</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Movement</td>
+<td style="text-align: left;">The exploration device needs to move; it will need a module for controlling a built-in motor.</td>
+<td style="text-align: left;">A PCB board will be fabricated and programmed to move a motor that is attached to a propeller, allowing our water exploration device to move. (H-bridge and motor)</td>
+<td style="text-align: left;">The device is able to move reliably in multiple water conditions: <strong>Fails</strong> if the device is unable to move at any time</td>
+<td style="text-align: left;">Actuation (Movement/Exploration); requires actuator i.e motors ,servos and thrusters.</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sensing Temperature</td>
+<td style="text-align: left;">The device will need a module for reading the temperature of the water around it.</td>
+<td style="text-align: left;">Measure temperatures of 0c up to 30c</td>
+<td style="text-align: left;">Device can accurately depict Measurements of temperature in the range of 0C up to 30C: <strong>Fails</strong> if it cannot read temperature.</td>
+<td style="text-align: left;">Sensing (Temperature); Using sensors such as thermistors,RTD,and or digital temp. Sensors</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Waterproof</td>
+<td style="text-align: left;">The exploration device, at times, will be fully submerged in water; the device needs to be waterproofed to ensure it still works effectively in these conditions</td>
+<td style="text-align: left;">Fully sealed chassis with coated materials and PCBs to ensure functionality in submerged conditions (Fully sealed chassis, mineral coating for PCBs)</td>
+<td style="text-align: left;">The device can effectively work while submerged. It <strong>fails</strong> if the device chassis leaks or the PCBs are unable to work underwater</td>
+<td style="text-align: left;">Waterproofing (Sealed Chassis,)</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Wireless Communication</td>
+<td style="text-align: left;">The device will have an HMI module that includes some form of human interface, ranging from an OLED screen to push buttons for direction control</td>
+<td style="text-align: left;">A control device will be used to move the device when far away. An OLED device will read measurements taken by the device and display them to the user</td>
+<td style="text-align: left;">The control system can be used from a long range to reliably move the device; the user should also be able to see measurements taken from the device at a long range.</td>
+<td style="text-align: left;">Wireless communication (WifFi, Bluetooth)</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Altitude of the device within the water</td>
+<td style="text-align: left;">The device will have a sensor module that will determine how deep the device is within the space it is being used</td>
+<td style="text-align: left;">Creating an origin, and measuring the distance in the negative direction to simulate below sea level.</td>
+<td style="text-align: left;">If the reading is off by 10 percent of the actual position.</td>
+<td style="text-align: left;">Sensor, can use things such as a Pressure Sensor or an ultrasonic altimeter</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Internal Leak Detection</td>
+<td style="text-align: left;">Needs a module that detects water within the device and triggers an alarm.</td>
+<td style="text-align: left;">Turns on the alarm if there is water detected within the casing.</td>
+<td style="text-align: left;">If it does not detect a leak</td>
+<td style="text-align: left;">Sensor, this acts as a reading since you can use a water detection sensor</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Avoiding Obstructions</td>
+<td style="text-align: left;">A module that helps avoid crashing into any large objects or obstructions will tell the motor to stop moving</td>
+<td style="text-align: left;">Transmits data from the sensor to communicate with the motor module</td>
+<td style="text-align: left;">If the data received does not command the motors to change direction.</td>
+<td style="text-align: left;">Actuation, the actual motion of the motors changing direction, falls under this.</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Visual feed</td>
+<td style="text-align: left;">They will have a module that provides a live feed of what the drone is monitoring with a camera</td>
+<td style="text-align: left;">Video is being displayed back to the user.</td>
+<td style="text-align: left;">The video is not being displayed correctly or there is an offset.</td>
+<td style="text-align: left;">HMI, since the video is being displayed by the user.</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Water Pressure Module</td>
+<td style="text-align: left;">pressure is too low, tells to raise it higher by means of removing the sample</td>
+<td style="text-align: left;">The sensor communicates to the microcontroller reading the water pressure surrounding the submersible</td>
+<td style="text-align: left;">The pressure of the readings  isn't accurate to the 5 percent, using a pressure chamber.</td>
+<td style="text-align: left;">Sensor (Water Pressure) sends the reading to the controller providing threshold levels.</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr>
+<td style="text-align: left;">Short/Long Range</td>
+<td style="text-align: left;">Determine the correct distance set by user so it has enough time to stop or go if needed</td>
+<td style="text-align: left;">Communicate with distance sensor, using units of a certain value (ie 2 ft)</td>
+<td style="text-align: left;">The distance sensor needs to be completely accurate and shared with the user. Fails if the distance is inaccurate or if the device is unable to measure</td>
+<td style="text-align: left;">Sensor( Distance)</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Quick reaction time</td>
+<td style="text-align: left;">Allow enough time (in ms) to stop the device to avoid crashing efficiently</td>
+<td style="text-align: left;">Part of the sensing module, reads data and codes to stop</td>
+<td style="text-align: left;">Sensors: The device does not act in time and crashes into obstacles.</td>
+<td style="text-align: left;">Sensor (Reaction)</td>
+<td style="text-align: left;">No</td>
+</tr>
+<tr>
+<td style="text-align: left;">Reading the ambient radiation within the water</td>
+<td style="text-align: left;">The device will have a module that provides the reading of the ambient radiation within the water</td>
+<td style="text-align: left;">Radiation sensor that detects the ambient Becquerels</td>
+<td style="text-align: left;">It passes if it can provide the reading of the ambient radiation: Fails if it cannot provide a reading.</td>
+<td style="text-align: left;">Sensor (Radiation)</td>
+<td style="text-align: left;">No</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Team member</th>
+<th style="text-align: left;">The requirement is being fulfilled by them</th>
+<th style="text-align: left;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Zane Brauer</td>
+<td style="text-align: left;">Environmental Sensing (Temperature)</td>
+<td style="text-align: left;">Focus: Environmental temperature measurement</td>
+</tr>
+<tr>
+<td style="text-align: left;">Abriana Poola</td>
+<td style="text-align: left;">Human-Machine Interface</td>
+<td style="text-align: left;">Focus: Camera control, mode selection, microphone, touchscreen panel</td>
+</tr>
+<tr>
+<td style="text-align: left;">Don</td>
+<td style="text-align: left;">Motion &amp; Speed Sensing (Vehicle State)</td>
+<td style="text-align: left;">Focus: Vehicle state detection</td>
+</tr>
+<tr>
+<td style="text-align: left;">Garrett Wiebke</td>
+<td style="text-align: left;">Actuation &amp; Movement Control / Waterproofing / Wireless Comms.</td>
+<td style="text-align: left;">Focus: Controlling motors, actuators, and waterproofing mechanisms.</td>
+</tr>
+<tr>
+<td style="text-align: left;">JT Harrison</td>
+<td style="text-align: left;">Distance Sensor/Range/Reaction Time</td>
+<td style="text-align: left;">Focus: Distance and reaction measurement</td>
+</tr>
+<tr>
+<td style="text-align: left;">Elisabeth Sabbagh</td>
+<td style="text-align: left;">Altitude/Radiation/Depth</td>
+<td style="text-align: left;">Focus: Environmental extremes sensing</td>
+</tr>
+</tbody>
+</table>
 
 
 
