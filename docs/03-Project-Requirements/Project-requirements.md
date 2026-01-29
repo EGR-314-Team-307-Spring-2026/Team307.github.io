@@ -4,7 +4,7 @@ title: Project Requirements
 
 ## Overview
 
-Our project's scope area will be water. It should be able to swap between surface floating and fully submersible; the system will have to move, take samples, and collect waste. It is an exploration device, so we should add features that fit that genre like some sort of self-charging feature and multiple sensors. Below are areas of focus that the modules can be made of.
+As Team 307 progresses through the project, we have decided to create a list of requirements that are within the stretch goals for this project. As a team, we decided which features are important to the final product which shaped the table of requirements. Afterwards, each team member decided with one another on who would take responsibility for the requirements that need to be fufilled to ensure the success of the final project.
 
 
 ## Requirements
@@ -25,6 +25,7 @@ Our project's scope area will be water. It should be able to swap between surfac
 | Quick reaction time | Allow enough time (in ms) to stop the device to avoid crashing efficiently | Part of the sensing module, reads data and codes to stop | Sensors: The device does not act in time and crashes into obstacles. | Sensor (Reaction) | No |
 | Reading the ambient radiation within the water | The device will have a module that provides the reading of the ambient radiation within the water | Radiation sensor that detects the ambient Becquerels | It passes if it can provide the reading of the ambient radiation: Fails if it cannot provide a reading. | Sensor (Radiation) | No  |
 
+
 | Team member | The requirement is being fulfilled by them |  |
 | :---- | :---- | :---- |
 | Zane Brauer | Environmental Sensing (Temperature)  | Focus: Environmental temperature measurement |
@@ -33,3 +34,15 @@ Our project's scope area will be water. It should be able to swap between surfac
 | Garrett Wiebke  | Actuation & Movement Control / Waterproofing / Wireless Comms. | Focus: Controlling motors, actuators, and waterproofing mechanisms. |
 | JT Harrison | Distance Sensor/Range/Reaction Time | Focus: Distance and reaction measurement |
 | Elisabeth Sabbagh | Altitude/Radiation/Depth | Focus: Environmental extremes sensing |
+
+##  Design Rationale
+
+As a team, it was decided that the main scope of this project will be water. With water being the team's focus, there was a list of features that helped shaped the requirements of the project:
+
+- It should be able to swap between surface floating and fully submersible
+- the system will have to move, take samples, and collect waste
+- As an exploration device, it should be self-sufficient such as self charging, having a multitude of sensors that work with one another underneath one huge sensor, and etc
+- Having a HMI to allow access of data and be able to collect it when exploring
+
+With these needed features, the team was able to create requirements that satisfy the projects main objective, while ensuring each team member fulfills their individual portion of the course's requirements.
+
