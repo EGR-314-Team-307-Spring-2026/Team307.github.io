@@ -2,6 +2,11 @@
 title: Project Requirements
 ---
 
+## Overview
+
+Our project's scope area will be water. It should be able to swap between surface floating and fully submersible; the system will have to move, take samples, and collect waste. It is an exploration device, so we should add features that fit that genre like some sort of self-charging feature and multiple sensors. Below are areas of focus that the modules can be made of.
+
+
 ## Requirements
 
 | Requirement | Description | How the requirement will be met  | Requirements to pass/ Failure conditions | Satisfying Requirements  | Stretch Goal? (y/n) |
