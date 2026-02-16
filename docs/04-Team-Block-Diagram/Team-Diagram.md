@@ -11,8 +11,13 @@ For our teams’s system, we built it using a daisy chain system where each team
 
 ![team software](314BD.png)
 
+Block Diagram PDF: [Download here](bdpdf.pdf)
+
 ## Sequence Diagram of Team Communication
 
 ![team software](teamsw.png)
+
+Sequence Diagram PDF: [Download here](teamsw.pdf)
+
 
 ## Message Type
