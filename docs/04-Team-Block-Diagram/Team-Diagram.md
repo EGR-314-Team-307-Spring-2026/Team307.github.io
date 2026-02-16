@@ -11,6 +11,8 @@ For our teams’s system, we built it using a daisy chain system where each team
 
 ![team software](314BD.png)
 
+<img src="314BD.png" width="100%">
+
 
 ## Sequence Diagram of Team Communication
 
