@@ -53,49 +53,49 @@ Sequence Diagram PDF: [Download here](teamsw.pdf)
 
 | Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
 |---------------------|------------------|----------------------|-----------|
-| 0x02 | motor_state | current_speed | 0x00 padding |
+| 0x02 | motor state | current speed | 0x00 padding |
 
 
 ### Message Type 3 – Distance Value (mm)
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
-| 0x03 | distance_mm | 0x00 padding |
+| 0x03 | distance mm | 0x00 padding |
 
 
 ### Message Type 4 – Hall Sensor Value
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
-| 0x04 | hall_value | 0x00 padding |
+| 0x04 | hall value | 0x00 padding |
 
 
 ### Message Type 5 – Depth/Pressure Value
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
-| 0x05 | depth_or_pressure_value | 0x00 padding |
+| 0x05 | depth or pressure_value | 0x00 padding |
 
 
 ### Message Type 6 – Temperature Value
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
-| 0x06 | temperature_value | 0x00 padding |
+| 0x06 | temperature value | 0x00 padding |
 
 
 ### Message Type 7 – HMI Display Update
 
 | Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
 |---------------------|------------------|----------------------|-----------|
-| 0x07 | display_page | display_value | 0x00 padding |
+| 0x07 | display page | display_value | 0x00 padding |
 
 
 ### Message Type 8 – HMI Button Event
 
 | Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5–58 |
 |---------------------|------------------|------------------|-----------|
-| 0x08 | button_id | event | 0x00 padding |
+| 0x08 | button id | event | 0x00 padding |
 
 
 ### Message Type 9 – System Status Request
@@ -109,14 +109,14 @@ Sequence Diagram PDF: [Download here](teamsw.pdf)
 
 | Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–58 |
 |---------------------|------------------|-----------|
-| 0x0A | status_code | 0x00 padding |
+| 0x0A | status code | 0x00 padding |
 
 
 ### Message Type 11 – Error Code
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
-| 0x0B | error_code | 0x00 padding |
+| 0x0B | error code | 0x00 padding |
 
 
 ### Message Type 12 – Emergency Stop
