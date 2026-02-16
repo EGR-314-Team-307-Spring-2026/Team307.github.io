@@ -21,3 +21,107 @@ Sequence Diagram PDF: [Download here](teamsw.pdf)
 
 
 ## Message Type
+
+## Team 307 – Message Types (uint16_t)
+
+| Message Type | Description |
+|--------------|------------|
+| 1 | Set motor command |
+| 2 | Motor status report |
+| 3 | Distance value (mm) |
+| 4 | Hall sensor value |
+| 5 | Depth/Pressure value |
+| 6 | Temperature value |
+| 7 | HMI display update |
+| 8 | HMI button event |
+| 9 | System status request |
+| 10 | System status response |
+| 11 | Error code |
+| 12 | Emergency stop |
+
+
+---
+
+### Message Type 1 – Set Motor Command
+
+| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
+|---------------------|------------------|----------------------|-----------|
+| 0x01 | direction | speed | 0x00 padding |
+
+
+### Message Type 2 – Motor Status Report
+
+| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
+|---------------------|------------------|----------------------|-----------|
+| 0x02 | motor_state | current_speed | 0x00 padding |
+
+
+### Message Type 3 – Distance Value (mm)
+
+| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
+|---------------------|----------------------|-----------|
+| 0x03 | distance_mm | 0x00 padding |
+
+
+### Message Type 4 – Hall Sensor Value
+
+| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
+|---------------------|----------------------|-----------|
+| 0x04 | hall_value | 0x00 padding |
+
+
+### Message Type 5 – Depth/Pressure Value
+
+| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
+|---------------------|----------------------|-----------|
+| 0x05 | depth_or_pressure_value | 0x00 padding |
+
+
+### Message Type 6 – Temperature Value
+
+| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
+|---------------------|----------------------|-----------|
+| 0x06 | temperature_value | 0x00 padding |
+
+
+### Message Type 7 – HMI Display Update
+
+| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
+|---------------------|------------------|----------------------|-----------|
+| 0x07 | display_page | display_value | 0x00 padding |
+
+
+### Message Type 8 – HMI Button Event
+
+| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5–58 |
+|---------------------|------------------|------------------|-----------|
+| 0x08 | button_id | event | 0x00 padding |
+
+
+### Message Type 9 – System Status Request
+
+| Byte 1–2 (uint16_t) | Byte 3–58 |
+|---------------------|-----------|
+| 0x09 | 0x00 padding |
+
+
+### Message Type 10 – System Status Response
+
+| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–58 |
+|---------------------|------------------|-----------|
+| 0x0A | status_code | 0x00 padding |
+
+
+### Message Type 11 – Error Code
+
+| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
+|---------------------|----------------------|-----------|
+| 0x0B | error_code | 0x00 padding |
+
+
+### Message Type 12 – Emergency Stop
+
+| Byte 1–2 (uint16_t) | Byte 3–58 |
+|---------------------|-----------|
+| 0x0C | 0x00 padding |
+
