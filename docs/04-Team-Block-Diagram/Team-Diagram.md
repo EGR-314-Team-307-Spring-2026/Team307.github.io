@@ -9,7 +9,7 @@ For our teams’s system, we built it using a daisy chain system where each team
 ## Team Block Diagram
 
 
-<img src="./314BD.png" width="100%">
+![team software](314BD.png)
 
 
 ## Sequence Diagram of Team Communication
