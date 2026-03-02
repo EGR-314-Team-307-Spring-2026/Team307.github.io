@@ -127,7 +127,7 @@ is provided in Appendix - [02 Concept Generations](https://egr-314-team-307-spri
 
 ---
 
-# 3 Product Concepts (Practical & Usable)
+# Initial 3 Product Concepts (Practical & Usable)
 The amphibious trash collector is designed as a multi-role platform capable of scientific testing, environmental interaction, efficient power management, and advanced mobility. For the purposes of concept 
 development, we are focusing on the Big 3 efficiency pillars — the core functional areas that define the collector’s most practical and usable capabilities.
 The full ideation list, including additional features and experimental concepts, can be found in the [Appendix](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-Concept-Genrations/Append-Concepts/)
@@ -209,8 +209,8 @@ The hybrid concept is primarily about:
 
 ![Design Concept 2](Design_2.png)
 
-## Final Design Concept
-Team 307 has selected this model as our final concept for the product. This design effectively showcases the desired features of the amphibious exploration rover that Team 307 is striving to create, such as a 
+## Initial Design Concept
+Team 307 has initially selected this model as our final concept for the product. This design effectively showcases the desired features of the amphibious exploration rover that Team 307 was striving to create, such as a 
 durable treading/suspension system, a modular chassis for continuous improvement, and detailed annotations to help the onlooker understand the design concept. (Design Credit - Abriana Poola)
 
 ![Design Concept 2](rover.png)
@@ -218,6 +218,8 @@ durable treading/suspension system, a modular chassis for continuous improvement
 
 
 
+# Updated Submersible Exploration Device Concept
+Throughout the project's lifetime, Team 307 decided to pivot to a fully submersible exploration system that operates solely in aquatic environments, rather than building an amphibious rover that covers both water and land. Team 307 wanted to focus on aquatic capability and step down the overall ambition of their current device for something that only works in one environment, but is more effective and with a better design for that one domain. With its current data-sensing capabilities, team 307 felt the submersible better fit its role as an exploration device than its previous design.
 
 
 
