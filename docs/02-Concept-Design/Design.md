@@ -208,8 +208,9 @@ durable treading/suspension system, a modular chassis for continuous improvement
 
 
 
-# Updated Submersible Exploration Device Concept
-Throughout the project's lifetime, Team 307 decided to pivot to a fully submersible exploration system that operates solely in aquatic environments, rather than building an amphibious rover that covers both water and land. Team 307 wanted to focus on aquatic capability and step down the overall ambition of their current device for something that only works in one environment, but is more effective and with a better design for that one domain. With its current data-sensing capabilities, team 307 felt the submersible better fit its role as an exploration device than its previous design.
+## Updated Submersible Exploration Device Concept
+
+Throughout the project’s development, Team 307 refined its design focus and transitioned to a fully submersible exploration system specifically for aquatic environments. Rather than dividing functionality between land and water, the team chose to concentrate on the fine tuning the water aspect. This decision allows for system efficiency, simplified mechanical design, and strong integration of underwater sensing capabilities. With its current data collection and environmental monitoring features, the submersible platform more effectively fulfills its intended role as an exploration device focused on aquatic environments.
 
 
 
