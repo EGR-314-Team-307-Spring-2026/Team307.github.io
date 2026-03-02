@@ -16,10 +16,14 @@ As a team, we decided that pin 8 would be shared ground so ensure stable connect
 
 ## Sequence Diagram of Team Communication
 
-![team software](webdia.png)
-*Sequence Diagram draw.io: [website](https://app.diagrams.net/#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D)*
+![Team Software](https://raw.githubusercontent.com/EGR-314-Team-307-Spring-2026/Team307.github.io/main/docs/04-Team-Block-Diagram/HallEffectConcept.drawio.png)
+*Sequence Diagram draw.io: [website](https://app.diagrams.net/?src=about#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D)*
 
-From the diagram above, the starting (WebUser) is recieving data from the positions and depth given by the hall effect, I2C ToF Sensor, and Depth Sensor. With that, the hall effect then  gives I2C ToF Sensor the angle/position which sends distance to Garrett's PCB. With everything going on with the sensors, the OLED reads the data and allows the in person user to cycle through several options to see the data that the machinery is collecting. The temperature sensor is connected to Garrett's board to give data about the surrounding environmental temperature.
+This sequence diagram illustrates the interactions within a sensor-driven submersible where a WebUser sets parameters that initialize the sensors and motors. Garrett Motor, Donovan Hall 
+Effect sensor, Lis Pressure Sensor, Zane Temperature Sensor, and Jt Distance Sensor all power on and begin sending status and data messages. The system continuously reads sensor data, 
+calculates speed and position, and sends obstacle and temperature readings. This information is displayed on Abriana’s OLED screen, while debug messages are exchanged to monitor system 
+status. The loop ensures ongoing updates and adjustments, with safety checks to stop motors if obstacles are detected. Overall, the diagram shows a coordinated flow of initialization, data 
+acquisition, processing, display, and debugging within the system.
 
 ## Message Type
 
