@@ -33,7 +33,7 @@ As Team 307 progresses through the project, we have decided to create a list of 
 | Don |  Motion & Speed Sensing (Vehicle State)           | Focus: Vehicle state detection |
 | Garrett Wiebke  | Actuation & Movement Control / Waterproofing / Wireless Comms. | Focus: Controlling motors, actuators, and waterproofing mechanisms. |
 | JT Harrison | Distance Sensor/Range/Reaction Time | Focus: Distance and reaction measurement |
-| Elisabeth Sabbagh | Altitude/Radiation/Depth | Focus: Environmental extremes sensing |
+| Elisabeth Sabbagh | Pressure/Depth | Focus: Environmental Pressure sensing |
 
 ##  Design Rationale
 
