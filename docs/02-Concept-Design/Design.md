@@ -150,16 +150,15 @@ The full ideation list, including additional features and experimental concepts,
 ---
 
 ## 3. Mobility & Operational Efficiency
-*Terrain adaptability, navigation, and basic manipulation.*
+*Water navigation, and basic manipulation.*
 
 ### Key Features
-- 4×4 drive with twin motors  
-- Suspension system & NASA-inspired wheels  
-- Amphibious capability (limited surface-water operation)  
+- motor driven 
+- Underwater/Surface water navigation  
 - Robotic arm / manipulator  
 - Motion & basic navigation sensors  
 - USB-C / Wi-Fi / Bluetooth connectivity  
-- Emergency stop & basic alarm system  
+- Emergency stop, slow and go 
 
 
 ## Scientific & Environmental Interaction Efficiency
@@ -210,7 +209,27 @@ durable treading/suspension system, a modular chassis for continuous improvement
 
 ## Updated Submersible Exploration Device Concept
 
+### Rationale
 Throughout the project’s development, Team 307 refined its design focus and transitioned to a fully submersible exploration system specifically for aquatic environments. Rather than dividing functionality between land and water, the team chose to concentrate on the fine tuning the water aspect. This decision allows for system efficiency, simplified mechanical design, and strong integration of underwater sensing capabilities. With its current data collection and environmental monitoring features, the submersible platform more effectively fulfills its intended role as an exploration device focused on aquatic environments.
+
+### Updated User Needs 
+With the updated concept, some key user needs were place on a higher priority than others which include:
+- Operate reliably underwater for extended periods 
+- Surface Water Navigation
+- Measure environmental conditions
+- Detect nearby objects or obstacles
+- Remain compact and energy efficient for exploration missions
+- Support environmental monitoring and waste identification/removal
+- Human interface is able to control easily
+
+### New / Emphasized Functions
+- Temperature sensing to monitor water conditions
+- Pressure sensing to estimate depth changes
+- Distance sensing to detect obstacles/objects that will tell submersible to slow, stop or go if clear
+- OLED display to show real time system and sensor information and allow for human interface
+- Motor/actuation support for controlled underwater movement and sample collection
+
+### Design Model Concept
 
 ![Design Final Concept Idea](concept.png)
 
