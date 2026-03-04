@@ -9,10 +9,10 @@ For our teams’s system, we built it using a daisy chain system where each team
 ## Team Block Diagram
 
 
-![team software](314BD.png)
-*Block Diagram PDF: [Download here](bdpdf.pdf)*
+![team software](Team314.png)
+*Block Diagram PDF: [Download here](Team314pdf_drawio.pdf)*
 
-As a team, we decided that pin 8 would be shared ground so ensure stable connection throughout the communication when adding together all the components. Furthermore, shared power is through pin 1. The team decided to have pin 3 as the uart reciever pin or uart transmitter pin deoending on which header it is.
+As a team, we decided that pin 8 would be shared ground so ensure stable connection throughout the communication when adding together all the components. Furthermore, shared power is through pin 1. The team decided to have pin 3 as the uart reciever pin (RX), and pin 4 is the uart transmitter (TX).
 
 ## Sequence Diagram of Team Communication
 
