@@ -214,6 +214,7 @@ Throughout the project’s development, Team 307 refined its design focus and tr
 
 ### Updated User Needs 
 With the updated concept, some key user needs were place on a higher priority than others which include:
+
 - Operate reliably underwater for extended periods 
 - Surface Water Navigation
 - Measure environmental conditions
