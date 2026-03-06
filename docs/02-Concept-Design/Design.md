@@ -240,10 +240,6 @@ With the usage of Generative AI, we were able to get an idea of a possible desig
 
 Majority of the components for this project is given by the class, so instead of having a huge OLED Screen, we decided to create a little section where the OLED can be placed, along with it's buttons. It is then closed with a little hatch to ensure that no water enters the area. The actuator and hall effect sensor will be working side by side to ensure mobility of the machinery. Temperature and Pressure sensors will have cylander gauges to get the readings of the environment, while the I2C sensor has its own compartment in the front of the face of the casing, but towards the bottom as to detect objects in front while in driver mode.
 
-![FISH Concept Design V1](FISHv1.png)
-
-![FISH Concept Design V2](FISHv2.png)
-
-![Manta Concept](Manta.png)
+![Bullet Submarine](FinalConcept.png)
 
 ![Sub Concept](Sub.png)
