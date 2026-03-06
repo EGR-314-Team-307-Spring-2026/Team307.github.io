@@ -9,7 +9,7 @@ For our teams’s system, we built it using a daisy chain system where each team
 ## Team Block Diagram
 
 
-![team software](Team314.png)
+![team software](tbg.png)
 *Block Diagram PDF: [Download here](Team314pdf_drawio.pdf)*
 
  The block diagram as a team, we decided that pin 8 would be shared ground so ensure stable connection throughout the communication when adding together all the components. Furthermore, shared power is through pin 1, The team decided to have pin 2 as the uart pin, and pin 8 is the shared ground. With that the block diagram is divided up into 6 subsystems that connect through a daisy chain loop. JT subsystem is sending a digital signal connection to Garret subsystem as well as sending data out to Zane subsystem. Zane subsystem is storing the data given from JT subsystem as well as computing data from a temperature sesor and displays both datas to Abriana OLED subsystem. Abriana subsystem also is sending data out to Garrets subsystem. digital signalto defect obstruction in the way. garret sends  to 8 pin connector 
