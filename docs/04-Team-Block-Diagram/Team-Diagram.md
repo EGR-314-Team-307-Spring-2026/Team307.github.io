@@ -10,7 +10,7 @@ For our teams’s system, we built it using a daisy chain system where each team
 
 
 ![team software](tbg.png)
-*Block Diagram PDF: [Download here](Team314pdf_drawio.pdf)*
+*Block Diagram PDF: [Download here](Team307_Block_Diagram.drawio.pdf)*
 
  The block diagram as a team, we decided that pin 8 would be shared ground so ensure stable connection throughout the communication when adding together all the components. Furthermore, shared power is through pin 1, The team decided to have pin 2 as the uart pin, and pin 8 is the shared ground. With that the block diagram is divided up into 6 subsystems that connect through a daisy chain loop. JT subsystem is sending a digital signal connection to Garret subsystem as well as sending data out to Zane subsystem. Zane subsystem is storing the data given from JT subsystem as well as computing data from a temperature sesor and displays both data's to Abriana OLED subsystem. Abriana subsystem also is sending data out to Garrets subsystem. garret subsystem sends digital signal to 8 pin connector onto Donovan subsystem. Donovan subsystem `takes the digital data, then makes the Uart from the subsystem and sends that data to Elisabeth subsystem. Elisabeth subsystem takes the data recieved from Donovan subsystem along with computing pressure sensor values, sends the data to  Abriana subsystem where the data is stored and then displayed on the OLED in  Abriana subsystem.
 
