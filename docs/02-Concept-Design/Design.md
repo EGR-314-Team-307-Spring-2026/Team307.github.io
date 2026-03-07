@@ -243,3 +243,7 @@ Majority of the components for this project is given by the class, so instead of
 ![Bullet Submarine](FinalConcept.png)
 
 ![Sub Concept](Sub.png)
+
+### Choosen concept
+
+For the final design we decideds to go with the 3rd submersible concept. The choice mostly came down to how simple it is. Both in design and execution. While Other designs may be robust, the bullet design by far would be the best when ti comes to construction. With the body being one main structure where in the parts just slot in. As a result, when assembling the device, tehre will be a lot less problems over all.
