@@ -230,20 +230,23 @@ With the updated concept, some key user needs were place on a higher priority th
 - OLED display to show real time system and sensor information and allow for human interface
 - Motor/actuation support for controlled underwater movement and sample collection
 
-### Design Model Concept
+### Final Design Model Concepts
 
-![Design Final Concept Idea](concept.png)
-
-With the usage of Generative AI, we were able to get an idea of a possible design for the final product from the given image above to get an idea of where certain placements of several components could be placed. Despite the detail, there were changes to the casing which is shown in the following image:
-
+#### Option 1: Traditional Rover
 ![Final Design Casing](CasingIdea.png)
 
 Majority of the components for this project is given by the class, so instead of having a huge OLED Screen, we decided to create a little section where the OLED can be placed, along with it's buttons. It is then closed with a little hatch to ensure that no water enters the area. The actuator and hall effect sensor will be working side by side to ensure mobility of the machinery. Temperature and Pressure sensors will have cylander gauges to get the readings of the environment, while the I2C sensor has its own compartment in the front of the face of the casing, but towards the bottom as to detect objects in front while in driver mode.
 
+#### Option 2: Bullet Submarine
 ![Bullet Submarine](FinalConcept.png)
 
+Based off traditional submarines, the Bullet Submarine is shaped like Bullet Bill from the Super Mario Games created by Nintendo as way to create a small enough machinery to traverse through the underwater. As a team, there is a huge agreeance with a propeller actuator as a way to move through the waters and the little small box opening is where the subsystem will operate from.
+
+#### Option 3: Traveling rover
 ![Sub Concept](Sub.png)
 
-### Choosen concept
+Unlike the tradional rover proposed, this rover is built with propeller's in mind and rather than focusing on one direction, it can move all sorts of directions thanks to the open design that allows where and how many propellers can be placed. Not only that, the round body can host all the subsystems with the OLED Screen being the front.
+
+#### Choosen concept
 
 For the final design we decideds to go with the 3rd submersible concept. The choice mostly came down to how simple it is. Both in design and execution. While Other designs may be robust, the bullet design by far would be the best when ti comes to construction. With the body being one main structure where in the parts just slot in. As a result, when assembling the device, tehre will be a lot less problems over all.
