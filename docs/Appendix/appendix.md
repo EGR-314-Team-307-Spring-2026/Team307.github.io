@@ -6,4 +6,4 @@ title: Appendix
 
 * [Appendix - Extra Team Organization Information](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/01-Organization-Information/Append-Organization/)
 
-> [Appendix - Design Concepts](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-Concept-Genrations/Append-Concepts/)
+* [Appendix - Design Concepts](https://egr-314-team-307-spring-2026.github.io/Team307.github.io/Appendix/02-Concept-Genrations/Append-Concepts/)
