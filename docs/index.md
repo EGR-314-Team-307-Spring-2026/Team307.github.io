@@ -7,7 +7,7 @@ tags:
 <center>
 <font size="8">Submersible Exploration Device<br>
 <font size="5">Team 307<br>
-**Submission: Jan 18, 2026**<br>
+**Submission: March 6th, 2026**<br>
 Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
