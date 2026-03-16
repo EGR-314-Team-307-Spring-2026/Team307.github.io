@@ -28,9 +28,9 @@ Kevin Nichols
 
 | **Team Member**        |**Ind Datasheet Links** |**Major**|
 | ---------------------- | -----------------------|-----------------------|
-| Zane Brauer                | [DataSheet](https://zane047.github.io/) | Electrical Systems |
 | Donovan Calderon       | [DataSheet](https://dcalde11.github.io/EGR314DonDataSheet/) | Robotics |
 | Elisabeth Sabbagh              | [DataSheet](https://cryptic-bunny.github.io/) | Electrical Systems |
 | Abriana Poola             | [DataSheet](https://apoolaz.github.io/apoola01.github.io/) | Electrical Systems |
 | JT Harrison            | [DataSheet](https://jtharri6.github.io/egr314/) | Electrical Systems |
 | Garrett Wiebke                | [DataSheet](https://garrettwiebke.github.io/GarrettWiebke314.github.io/) | Robotics |
+| Zane Brauer                | [DataSheet](https://zane047.github.io/) | Electrical Systems |
