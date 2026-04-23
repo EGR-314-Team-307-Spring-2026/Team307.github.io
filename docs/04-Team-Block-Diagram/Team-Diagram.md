@@ -25,7 +25,14 @@ calculates speed and position, and sends obstacle and temperature readings. This
 status. The loop ensures ongoing updates and adjustments, with safety checks to stop motors if obstacles are detected. Overall, the diagram shows a coordinated flow of initialization, data 
 acquisition, processing, display, and debugging within the system.
 
-## Message Type
+
+## Message proctol
+
+Team 307 messages protocol is as follows. The first and second byte of every message sent through uart will be 'AZ'. Followed by a third byte that is the sender ID, which is just the sender's captialized intial. The fourth is is the reciever ID, the reciever's captialized intial. The following bytes will have data that is defined by types in the section below. Then the endd of the message will be two byte thats wrtie out 'YB'. Alongside that, no messages will be longer then 64 bytes.
+
+An example of a message that will be sent between devices is "AZEAHelloYB".
+
+## Message Types
 
 ## Team 307 – Message Types (uint16_t)
 
@@ -33,16 +40,12 @@ acquisition, processing, display, and debugging within the system.
 |--------------|------------|
 | 1 | Set motor command |
 | 2 | Motor status report |
-| 3 | Distance value (mm) |
-| 4 | Hall sensor value |
-| 5 | Depth/Pressure value |
-| 6 | Temperature value |
-| 7 | HMI display update |
+| 3 | Motor speed report |
+| 4 | Distance value (mm) |
+| 5 | Hall sensor value |
+| 6 | Depth/Pressure value |
+| 7 | Temperature value |
 | 8 | HMI button event |
-| 9 | System status request |
-| 10 | System status response |
-| 11 | Error code |
-| 12 | Emergency stop |
 
 
 ---
@@ -102,31 +105,4 @@ acquisition, processing, display, and debugging within the system.
 |---------------------|------------------|------------------|-----------|
 | 0x08 | button id | event | 0x00 padding |
 
-
-### Message Type 9 – System Status Request
-
-| Byte 1–2 (uint16_t) | Byte 3–58 |
-|---------------------|-----------|
-| 0x09 | 0x00 padding |
-
-
-### Message Type 10 – System Status Response
-
-| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–58 |
-|---------------------|------------------|-----------|
-| 0x0A | status code | 0x00 padding |
-
-
-### Message Type 11 – Error Code
-
-| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
-|---------------------|----------------------|-----------|
-| 0x0B | error code | 0x00 padding |
-
-
-### Message Type 12 – Emergency Stop
-
-| Byte 1–2 (uint16_t) | Byte 3–58 |
-|---------------------|-----------|
-| 0x0C | 0x00 padding |
 
