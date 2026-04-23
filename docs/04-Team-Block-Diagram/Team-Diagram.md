@@ -61,50 +61,49 @@ The list of sender/reciever IDs are "A,D,E,G,J, and Z"
 
 ### Message Type 2 – Motor Status Report
 
-| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
-|---------------------|------------------|----------------------|-----------|
-| 0x02 | motor state | current speed | 0x00 padding |
-
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | G | A | Motor Status | YB |
 
 ### Message Type 3 – Motor Speed Report
 
-| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
-|---------------------|----------------------|-----------|
-| 0x03 | distance mm | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | G | D | Motor Speed | YB |
 
 
 ### Message Type 4 – Distance Value (mm)
 
-| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
-|---------------------|----------------------|-----------|
-| 0x04 | hall value | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | J | A | Distance | YB |
 
 
 ### Message Type 5 – Hall Sensor Value
 
-| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
-|---------------------|----------------------|-----------|
-| 0x05 | depth or pressure_value | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | D | A | Distance | YB |
 
 
 ### Message Type 6 – Depth/Pressure Value
 
-| Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
-|---------------------|----------------------|-----------|
-| 0x06 | temperature value | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | E | A | Depth and pressure | YB |
 
 
 ### Message Type 7 – Temperature Value
 
-| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
-|---------------------|------------------|----------------------|-----------|
-| 0x07 | display page | display_value | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | Z | A | Temprature | YB |
 
 
 ### Message Type 8 – HMI Button Event
 
-| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4 (uint8_t) | Byte 5–58 |
-|---------------------|------------------|------------------|-----------|
-| 0x08 | button id | event | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | A | G | Button Press | YB |
 
 
