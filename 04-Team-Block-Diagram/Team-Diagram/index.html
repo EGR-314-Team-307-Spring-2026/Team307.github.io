@@ -641,9 +641,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-type" class="md-nav__link">
+  <a href="#message-proctol" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type
+      Message proctol
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Types
     </span>
   </a>
   
@@ -726,42 +735,6 @@
   <a href="#message-type-8-hmi-button-event" class="md-nav__link">
     <span class="md-ellipsis">
       Message Type 8 – HMI Button Event
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-9-system-status-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 9 – System Status Request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-10-system-status-response" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 10 – System Status Response
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-11-error-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 11 – Error Code
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-12-emergency-stop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 12 – Emergency Stop
     </span>
   </a>
   
@@ -936,9 +909,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-type" class="md-nav__link">
+  <a href="#message-proctol" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type
+      Message proctol
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Types
     </span>
   </a>
   
@@ -1026,42 +1008,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#message-type-9-system-status-request" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 9 – System Status Request
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-10-system-status-response" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 10 – System Status Response
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-11-error-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 11 – Error Code
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#message-type-12-emergency-stop" class="md-nav__link">
-    <span class="md-ellipsis">
-      Message Type 12 – Emergency Stop
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1098,7 +1044,10 @@ Effect sensor, Lis Pressure Sensor, Zane Temperature Sensor, and Jt Distance Sen
 calculates speed and position, and sends obstacle and temperature readings. This information is displayed on Abriana’s OLED screen, while debug messages are exchanged to monitor system 
 status. The loop ensures ongoing updates and adjustments, with safety checks to stop motors if obstacles are detected. Overall, the diagram shows a coordinated flow of initialization, data 
 acquisition, processing, display, and debugging within the system.</p>
-<h2 id="message-type">Message Type</h2>
+<h2 id="message-proctol">Message proctol</h2>
+<p>Team 307 messages protocol is as follows. The first and second byte of every message sent through uart will be 'AZ'. Followed by a third byte that is the sender ID, which is just the sender's captialized intial. The fourth is is the reciever ID, the reciever's captialized intial. The following bytes will have data that is defined by types in the section below. Then the endd of the message will be two byte thats wrtie out 'YB'. Alongside that, no messages will be longer then 64 bytes.</p>
+<p>An example of a message that will be sent between devices is "AZEAHelloYB".</p>
+<h2 id="message-types">Message Types</h2>
 <h2 id="team-307-message-types-uint16_t">Team 307 – Message Types (uint16_t)</h2>
 <table>
 <thead>
@@ -1118,43 +1067,27 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 <tr>
 <td>3</td>
-<td>Distance value (mm)</td>
+<td>Motor speed report</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Hall sensor value</td>
+<td>Distance value (mm)</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Depth/Pressure value</td>
+<td>Hall sensor value</td>
 </tr>
 <tr>
 <td>6</td>
-<td>Temperature value</td>
+<td>Depth/Pressure value</td>
 </tr>
 <tr>
 <td>7</td>
-<td>HMI display update</td>
+<td>Temperature value</td>
 </tr>
 <tr>
 <td>8</td>
 <td>HMI button event</td>
-</tr>
-<tr>
-<td>9</td>
-<td>System status request</td>
-</tr>
-<tr>
-<td>10</td>
-<td>System status response</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Error code</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Emergency stop</td>
 </tr>
 </tbody>
 </table>
@@ -1299,70 +1232,6 @@ acquisition, processing, display, and debugging within the system.</p>
 <td>0x08</td>
 <td>button id</td>
 <td>event</td>
-<td>0x00 padding</td>
-</tr>
-</tbody>
-</table>
-<h3 id="message-type-9-system-status-request">Message Type 9 – System Status Request</h3>
-<table>
-<thead>
-<tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–58</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0x09</td>
-<td>0x00 padding</td>
-</tr>
-</tbody>
-</table>
-<h3 id="message-type-10-system-status-response">Message Type 10 – System Status Response</h3>
-<table>
-<thead>
-<tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3 (uint8_t)</th>
-<th>Byte 4–58</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0x0A</td>
-<td>status code</td>
-<td>0x00 padding</td>
-</tr>
-</tbody>
-</table>
-<h3 id="message-type-11-error-code">Message Type 11 – Error Code</h3>
-<table>
-<thead>
-<tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–4 (uint16_t)</th>
-<th>Byte 5–58</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0x0B</td>
-<td>error code</td>
-<td>0x00 padding</td>
-</tr>
-</tbody>
-</table>
-<h3 id="message-type-12-emergency-stop">Message Type 12 – Emergency Stop</h3>
-<table>
-<thead>
-<tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–58</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0x0C</td>
 <td>0x00 padding</td>
 </tr>
 </tbody>
