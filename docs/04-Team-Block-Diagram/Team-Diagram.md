@@ -32,6 +32,8 @@ Team 307 messages protocol is as follows. The first and second byte of every mes
 
 An example of a message that will be sent between devices is "AZEAHelloYB".
 
+The list of sender/reciever IDs are "A,D,E,G,J, and Z"
+
 ## Message Types
 
 ## Team 307 – Message Types (uint16_t)
@@ -52,9 +54,9 @@ An example of a message that will be sent between devices is "AZEAHelloYB".
 
 ### Message Type 1 – Set Motor Command
 
-| Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
-|---------------------|------------------|----------------------|-----------|
-| 0x01 | direction | speed | 0x00 padding |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+|---------------------|------------------|----------------------|-----------|-----------|
+| AZ | J | G | Speed setting | YB |
 
 
 ### Message Type 2 – Motor Status Report
@@ -64,35 +66,35 @@ An example of a message that will be sent between devices is "AZEAHelloYB".
 | 0x02 | motor state | current speed | 0x00 padding |
 
 
-### Message Type 3 – Distance Value (mm)
+### Message Type 3 – Motor Speed Report
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
 | 0x03 | distance mm | 0x00 padding |
 
 
-### Message Type 4 – Hall Sensor Value
+### Message Type 4 – Distance Value (mm)
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
 | 0x04 | hall value | 0x00 padding |
 
 
-### Message Type 5 – Depth/Pressure Value
+### Message Type 5 – Hall Sensor Value
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
 | 0x05 | depth or pressure_value | 0x00 padding |
 
 
-### Message Type 6 – Temperature Value
+### Message Type 6 – Depth/Pressure Value
 
 | Byte 1–2 (uint16_t) | Byte 3–4 (uint16_t) | Byte 5–58 |
 |---------------------|----------------------|-----------|
 | 0x06 | temperature value | 0x00 padding |
 
 
-### Message Type 7 – HMI Display Update
+### Message Type 7 – Temperature Value
 
 | Byte 1–2 (uint16_t) | Byte 3 (uint8_t) | Byte 4–5 (uint16_t) | Byte 6–58 |
 |---------------------|------------------|----------------------|-----------|
