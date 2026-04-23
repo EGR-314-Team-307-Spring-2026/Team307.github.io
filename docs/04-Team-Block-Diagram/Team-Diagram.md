@@ -54,55 +54,55 @@ The list of sender/reciever IDs are "A,D,E,G,J, and Z"
 
 ### Message Type 1 – Set Motor Command
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | J | G | Speed setting | YB |
 
 
 ### Message Type 2 – Motor Status Report
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | G | A | Motor Status | YB |
 
 ### Message Type 3 – Motor Speed Report
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | G | D | Motor Speed | YB |
 
 
 ### Message Type 4 – Distance Value (mm)
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | J | A | Distance | YB |
 
 
 ### Message Type 5 – Hall Sensor Value
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | D | A | Distance | YB |
 
 
 ### Message Type 6 – Depth/Pressure Value
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | E | A | Depth and pressure | YB |
 
 
 ### Message Type 7 – Temperature Value
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | Z | A | Temprature | YB |
 
 
 ### Message Type 8 – HMI Button Event
 
-| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Byte |
+| Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
 | AZ | A | G | Button Press | YB |
 
