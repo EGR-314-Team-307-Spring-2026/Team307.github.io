@@ -1118,18 +1118,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3 (uint8_t)</th>
-<th>Byte 4–5 (uint16_t)</th>
-<th>Byte 6–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x02</td>
-<td>motor state</td>
-<td>current speed</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>G</td>
+<td>A</td>
+<td>Motor Status</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1137,16 +1139,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–4 (uint16_t)</th>
-<th>Byte 5–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x03</td>
-<td>distance mm</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>G</td>
+<td>D</td>
+<td>Motor Speed</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1154,16 +1160,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–4 (uint16_t)</th>
-<th>Byte 5–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x04</td>
-<td>hall value</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>J</td>
+<td>A</td>
+<td>Distance</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1171,16 +1181,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–4 (uint16_t)</th>
-<th>Byte 5–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x05</td>
-<td>depth or pressure_value</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>D</td>
+<td>A</td>
+<td>Distance</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1188,16 +1202,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3–4 (uint16_t)</th>
-<th>Byte 5–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x06</td>
-<td>temperature value</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>E</td>
+<td>A</td>
+<td>Depth and pressure</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1205,18 +1223,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3 (uint8_t)</th>
-<th>Byte 4–5 (uint16_t)</th>
-<th>Byte 6–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x07</td>
-<td>display page</td>
-<td>display_value</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>Z</td>
+<td>A</td>
+<td>Temprature</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1224,18 +1244,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3 (uint8_t)</th>
-<th>Byte 4 (uint8_t)</th>
-<th>Byte 5–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x08</td>
-<td>button id</td>
-<td>event</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>A</td>
+<td>G</td>
+<td>Button Press</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
