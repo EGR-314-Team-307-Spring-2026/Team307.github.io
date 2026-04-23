@@ -687,45 +687,45 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-3-distance-value-mm" class="md-nav__link">
+  <a href="#message-type-3-motor-speed-report" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 3 – Distance Value (mm)
+      Message Type 3 – Motor Speed Report
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-4-hall-sensor-value" class="md-nav__link">
+  <a href="#message-type-4-distance-value-mm" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 4 – Hall Sensor Value
+      Message Type 4 – Distance Value (mm)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-5-depthpressure-value" class="md-nav__link">
+  <a href="#message-type-5-hall-sensor-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 5 – Depth/Pressure Value
+      Message Type 5 – Hall Sensor Value
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-6-temperature-value" class="md-nav__link">
+  <a href="#message-type-6-depthpressure-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 6 – Temperature Value
+      Message Type 6 – Depth/Pressure Value
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-7-hmi-display-update" class="md-nav__link">
+  <a href="#message-type-7-temperature-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 7 – HMI Display Update
+      Message Type 7 – Temperature Value
     </span>
   </a>
   
@@ -955,45 +955,45 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-3-distance-value-mm" class="md-nav__link">
+  <a href="#message-type-3-motor-speed-report" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 3 – Distance Value (mm)
+      Message Type 3 – Motor Speed Report
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-4-hall-sensor-value" class="md-nav__link">
+  <a href="#message-type-4-distance-value-mm" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 4 – Hall Sensor Value
+      Message Type 4 – Distance Value (mm)
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-5-depthpressure-value" class="md-nav__link">
+  <a href="#message-type-5-hall-sensor-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 5 – Depth/Pressure Value
+      Message Type 5 – Hall Sensor Value
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-6-temperature-value" class="md-nav__link">
+  <a href="#message-type-6-depthpressure-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 6 – Temperature Value
+      Message Type 6 – Depth/Pressure Value
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-type-7-hmi-display-update" class="md-nav__link">
+  <a href="#message-type-7-temperature-value" class="md-nav__link">
     <span class="md-ellipsis">
-      Message Type 7 – HMI Display Update
+      Message Type 7 – Temperature Value
     </span>
   </a>
   
@@ -1047,6 +1047,7 @@ acquisition, processing, display, and debugging within the system.</p>
 <h2 id="message-proctol">Message proctol</h2>
 <p>Team 307 messages protocol is as follows. The first and second byte of every message sent through uart will be 'AZ'. Followed by a third byte that is the sender ID, which is just the sender's captialized intial. The fourth is is the reciever ID, the reciever's captialized intial. The following bytes will have data that is defined by types in the section below. Then the endd of the message will be two byte thats wrtie out 'YB'. Alongside that, no messages will be longer then 64 bytes.</p>
 <p>An example of a message that will be sent between devices is "AZEAHelloYB".</p>
+<p>The list of sender/reciever IDs are "A,D,E,G,J, and Z"</p>
 <h2 id="message-types">Message Types</h2>
 <h2 id="team-307-message-types-uint16_t">Team 307 – Message Types (uint16_t)</h2>
 <table>
@@ -1096,18 +1097,20 @@ acquisition, processing, display, and debugging within the system.</p>
 <table>
 <thead>
 <tr>
-<th>Byte 1–2 (uint16_t)</th>
-<th>Byte 3 (uint8_t)</th>
-<th>Byte 4–5 (uint16_t)</th>
-<th>Byte 6–58</th>
+<th>Byte 1–2</th>
+<th>Byte 3</th>
+<th>Byte 4</th>
+<th>Byte 5-62</th>
+<th>Last 2 Byte</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0x01</td>
-<td>direction</td>
-<td>speed</td>
-<td>0x00 padding</td>
+<td>AZ</td>
+<td>J</td>
+<td>G</td>
+<td>Speed setting</td>
+<td>YB</td>
 </tr>
 </tbody>
 </table>
@@ -1130,7 +1133,7 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="message-type-3-distance-value-mm">Message Type 3 – Distance Value (mm)</h3>
+<h3 id="message-type-3-motor-speed-report">Message Type 3 – Motor Speed Report</h3>
 <table>
 <thead>
 <tr>
@@ -1147,7 +1150,7 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="message-type-4-hall-sensor-value">Message Type 4 – Hall Sensor Value</h3>
+<h3 id="message-type-4-distance-value-mm">Message Type 4 – Distance Value (mm)</h3>
 <table>
 <thead>
 <tr>
@@ -1164,7 +1167,7 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="message-type-5-depthpressure-value">Message Type 5 – Depth/Pressure Value</h3>
+<h3 id="message-type-5-hall-sensor-value">Message Type 5 – Hall Sensor Value</h3>
 <table>
 <thead>
 <tr>
@@ -1181,7 +1184,7 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="message-type-6-temperature-value">Message Type 6 – Temperature Value</h3>
+<h3 id="message-type-6-depthpressure-value">Message Type 6 – Depth/Pressure Value</h3>
 <table>
 <thead>
 <tr>
@@ -1198,7 +1201,7 @@ acquisition, processing, display, and debugging within the system.</p>
 </tr>
 </tbody>
 </table>
-<h3 id="message-type-7-hmi-display-update">Message Type 7 – HMI Display Update</h3>
+<h3 id="message-type-7-temperature-value">Message Type 7 – Temperature Value</h3>
 <table>
 <thead>
 <tr>
