@@ -16,7 +16,7 @@ For our teams’s system, we built it using a daisy chain system where each team
 
 ## Sequence Diagram of Team Communication
 
-![Team Software](https://raw.githubusercontent.com/EGR-314-Team-307-Spring-2026/Team307.github.io/main/docs/04-Team-Block-Diagram/HallEffectConcept.drawio.png)
+![Team Software](307api.png)
 *Sequence Diagram draw.io: [website](https://app.diagrams.net/?src=about#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D)*
 
 This sequence diagram illustrates the interactions within a sensor-driven submersible where a WebUser sets parameters that initialize the sensors and motors. Garrett Motor, Donovan Hall 
