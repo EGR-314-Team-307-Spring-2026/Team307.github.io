@@ -46,7 +46,7 @@ The list of sender/reciever IDs are "A,D,E,G,J, and Z"
 | 4 | Distance value (mm) |
 | 5 | Hall sensor value |
 | 6 | Depth/Pressure value |
-| 7 | Temperature value |
+| 7 | Temperature value (No Tested Value) |
 | 8 | HMI button event |
 
 
@@ -93,7 +93,7 @@ The list of sender/reciever IDs are "A,D,E,G,J, and Z"
 | AZ | E | A | Depth and pressure | YB |
 
 
-### Message Type 7 – Temperature Value
+### Message Type 7 – Temperature Value (No Tested Value)
 
 | Byte 1–2 | Byte 3 | Byte 4 | Byte 5-62| Last 2 Bytes |
 |---------------------|------------------|----------------------|-----------|-----------|
