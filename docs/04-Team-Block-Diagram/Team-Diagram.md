@@ -19,20 +19,15 @@ For our teams’s system, we built it using a daisy chain system where each team
 ![Team Software](307api.png)
  *Sequence Diagram draw.io: [website](https://app.diagrams.net/?src=about#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D)*
 
-This sequence diagram illustrates the interactions within a sensor-driven submersible where a WebUser sets parameters that initialize the sensors and motors. Garrett Motor, Donovan Hall 
-Effect sensor, Lis Pressure Sensor, Zane Temperature Sensor, and Jt Distance Sensor all power on and begin sending status and data messages. The system continuously reads sensor data, 
-calculates speed and position, and sends obstacle and temperature readings. This information is displayed on Abriana’s OLED screen, while debug messages are exchanged to monitor system 
-status. The loop ensures ongoing updates and adjustments, with safety checks to stop motors if obstacles are detected. Overall, the diagram shows a coordinated flow of initialization, data 
-acquisition, processing, display, and debugging within the system.
-
+This sequence diagram illustrates the interactions within our sensor-driven submersible. The system continuously reads sensor data to calculate speed and position, avoid obstacles, and measure ambient water temperature and pressure. Additionally, this information is displayed on an onboard OLED screen. The loop ensures ongoing updates of sensor readings and motor adjustments when obstacles are detected. Overall, the diagram shows a coordinated flow of data throughout the system among its 6 parts.
 
 ## Message proctol
 
-Team 307 messages protocol is as follows. The first and second byte of every message sent through uart will be 'AZ'. Followed by a third byte that is the sender ID, which is just the sender's captialized intial. The fourth is is the reciever ID, the reciever's captialized intial. The following bytes will have data that is defined by types in the section below. Then the endd of the message will be two byte thats wrtie out 'YB'. Alongside that, no messages will be longer then 64 bytes.
+Team 307's message protocol is as follows. The first and second bytes of every message sent through the UART will be 'AZ'. Followed by a third byte, the sender ID, which is just the sender's capitalized initial. The fourth is the receiver ID, the receiver's capitalized initial. The following bytes contain data defined by the types in the section below. Then the end of the message will be two bytes that write out 'YB'. Additionally, no messages will exceed 64 bytes.
 
-An example of a message that will be sent between devices is "AZEAHelloYB".
+An example of a message sent between devices is "AZEAHelloYB".
 
-The list of sender/reciever IDs are "A,D,E,G,J, and Z"
+The list of sender/receiver IDs is "A, D, E, G, J, and Z."
 
 ## Message Types
 
