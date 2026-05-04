@@ -22,7 +22,7 @@ Kevin Nichols
 > We are a team of engineering students from Arizona State University, united by a vision to transform innovative embedded systems concepts into practical, mission-ready solutions. Our work emphasizes
 > disciplined engineering design, systems integration, and technical rigor. In lieu of the project description centering on an exploration device, we have selected a submersible exploration device as the focus of our design,
 > drawing inspiration from established exploration platforms such as probes, orbiters, landers, rovers, and tactical robotic systems..<br>
-
+![Project](314prez.png)
 
 ## Team Members Datasheet links
 
