@@ -110,3 +110,15 @@ The list of sender/receiver IDs is "A, D, E, G, J, and Z."
 ### Switched Sensor to Change only when state changes instead of continously
 - The system continuously transmitted STOP, SLOW, and FAST states but during development, this was modified so that messages are only sent when the state changes. This reduced unnecessary communication traffic.
 
+### Removed MQTT from the final design
+
+- The original software design used MQTT for wireless communication and remote monitoring. However the team was not able to complete the MQTT setup in time, so it was removed from the final working version. The final design instead relies on the UART protocol for communication between subsystems. This kept the system simpler and reliable for the final demo. MQTT remains a possible future improvement for remote monitoring and cloud data logging.
+
+### Refined message structure for reliability
+- The initial message structure was basic, but during development it was refined to include consistent start and end markers (AZ and YB), sender and receiver IDs, and properly formatted data fields. These improvements made debugging easier and ensured messages were not misread or corrupted during transmission between subsystems.
+
+### Motor Function
+- In our first verison, JT subsystem was directly connected to Garrets motor, not daisy chained hoeever that was scrapped. It was deterermined it was easy to communicate over UART with the team RX/TX pins. This reduced coding and helped clean up communcation.
+
+
+
