@@ -765,6 +765,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#5-biggest-software-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Biggest Software Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 Biggest Software Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pass-through-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pass through logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switched-sensor-to-change-only-when-state-changes-instead-of-continously" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switched Sensor to Change only when state changes instead of continously
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1079,6 +1112,39 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#5-biggest-software-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Biggest Software Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 Biggest Software Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pass-through-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pass through logic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switched-sensor-to-change-only-when-state-changes-instead-of-continously" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switched Sensor to Change only when state changes instead of continously
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1323,6 +1389,15 @@
 </tr>
 </tbody>
 </table>
+<h2 id="5-biggest-software-changes">5 Biggest Software Changes</h2>
+<h3 id="pass-through-logic">Pass through logic</h3>
+<ul>
+<li>Initially the design only considered sending and receiving messages but was updated to include pass through logic, where each board checks if the message is for itself or another team member. If not the message is forwarded and necessary to support the daisy chain.</li>
+</ul>
+<h3 id="switched-sensor-to-change-only-when-state-changes-instead-of-continously">Switched Sensor to Change only when state changes instead of continously</h3>
+<ul>
+<li>The system continuously transmitted STOP, SLOW, and FAST states but during development, this was modified so that messages are only sent when the state changes. This reduced unnecessary communication traffic.</li>
+</ul>
 
 
 
