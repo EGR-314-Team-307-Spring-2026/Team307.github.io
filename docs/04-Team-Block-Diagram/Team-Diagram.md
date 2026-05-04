@@ -102,3 +102,11 @@ The list of sender/receiver IDs is "A, D, E, G, J, and Z."
 | AZ | A | G | Button Press | YB |
 
 
+## 5 Biggest Software Changes
+
+### Pass through logic
+- Initially the design only considered sending and receiving messages but was updated to include pass through logic, where each board checks if the message is for itself or another team member. If not the message is forwarded and necessary to support the daisy chain.
+
+### Switched Sensor to Change only when state changes instead of continously
+- The system continuously transmitted STOP, SLOW, and FAST states but during development, this was modified so that messages are only sent when the state changes. This reduced unnecessary communication traffic.
+
