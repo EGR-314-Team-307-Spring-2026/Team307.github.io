@@ -28,6 +28,7 @@ _Table #: Project Roles and Duties_
 | JT Harrison |    Text                            |              Phone Call                   |              Email                  |
 | Abriana Poola |               Text                 |             Email               |                Phone Call                 |
 | Garrett Wiebke |               Text                 |                   Phone Call              |                Email                |
+| Zane Brauer |               Text                 |                   Phone Call              |                Email                |
 
 
 
