@@ -24,6 +24,10 @@ Kevin Nichols
 > drawing inspiration from established exploration platforms such as probes, orbiters, landers, rovers, and tactical robotic systems..<br>
 ![Project](314prez.png)
 
+## Project Summary
+
+An underwater exploration device that navigates through aquatic environments while detecting and avoiding obstacles. It collects real time data such as water pressure, temperature and system performance and displays this information to the user. The system combines multiple sensors and communication between subsystems to support safe navigation and environmental monitoring.
+
 ## Team Members Datasheet links
 
 | **Team Member**        |**Ind Datasheet Links** |**Major**|
