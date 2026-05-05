@@ -661,9 +661,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-proctol" class="md-nav__link">
+  <a href="#message-protocol" class="md-nav__link">
     <span class="md-ellipsis">
-      Message proctol
+      Message Protocol
     </span>
   </a>
   
@@ -778,25 +778,25 @@
           <li class="md-nav__item">
   <a href="#pass-through-logic" class="md-nav__link">
     <span class="md-ellipsis">
-      Pass through logic
+      Pass-Through Logic
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#switched-sensor-to-change-only-when-state-changes-instead-of-continously" class="md-nav__link">
+  <a href="#state-based-sensor-transmission" class="md-nav__link">
     <span class="md-ellipsis">
-      Switched Sensor to Change only when state changes instead of continously
+      State-Based Sensor Transmission
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#removed-mqtt-from-the-final-design" class="md-nav__link">
+  <a href="#removal-of-mqtt-from-the-final-design" class="md-nav__link">
     <span class="md-ellipsis">
-      Removed MQTT from the final design
+      Removal of MQTT from the Final Design
     </span>
   </a>
   
@@ -805,16 +805,16 @@
           <li class="md-nav__item">
   <a href="#refined-message-structure-for-reliability" class="md-nav__link">
     <span class="md-ellipsis">
-      Refined message structure for reliability
+      Refined Message Structure for Reliability
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#motor-function" class="md-nav__link">
+  <a href="#motor-function-redesign" class="md-nav__link">
     <span class="md-ellipsis">
-      Motor Function
+      Motor Function Redesign
     </span>
   </a>
   
@@ -1035,9 +1035,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-proctol" class="md-nav__link">
+  <a href="#message-protocol" class="md-nav__link">
     <span class="md-ellipsis">
-      Message proctol
+      Message Protocol
     </span>
   </a>
   
@@ -1152,25 +1152,25 @@
           <li class="md-nav__item">
   <a href="#pass-through-logic" class="md-nav__link">
     <span class="md-ellipsis">
-      Pass through logic
+      Pass-Through Logic
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#switched-sensor-to-change-only-when-state-changes-instead-of-continously" class="md-nav__link">
+  <a href="#state-based-sensor-transmission" class="md-nav__link">
     <span class="md-ellipsis">
-      Switched Sensor to Change only when state changes instead of continously
+      State-Based Sensor Transmission
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#removed-mqtt-from-the-final-design" class="md-nav__link">
+  <a href="#removal-of-mqtt-from-the-final-design" class="md-nav__link">
     <span class="md-ellipsis">
-      Removed MQTT from the final design
+      Removal of MQTT from the Final Design
     </span>
   </a>
   
@@ -1179,16 +1179,16 @@
           <li class="md-nav__item">
   <a href="#refined-message-structure-for-reliability" class="md-nav__link">
     <span class="md-ellipsis">
-      Refined message structure for reliability
+      Refined Message Structure for Reliability
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#motor-function" class="md-nav__link">
+  <a href="#motor-function-redesign" class="md-nav__link">
     <span class="md-ellipsis">
-      Motor Function
+      Motor Function Redesign
     </span>
   </a>
   
@@ -1219,14 +1219,19 @@
 <h2 id="overview">Overview</h2>
 <p>For our teams’s system, we built it using a daisy chain system where each teammate designs a dedicated subsystem board. Communication between boards occurs through a 8 pin ribbon connector using digital serial signals. The team includes sensing subsystems (distance, pressure, temperature), motor control for actuation, and human interface modules. Each board includes its own power regulation and microcontroller (PIC or ESP32), allowing independent operation as well as full system integration.</p>
 <h2 id="team-block-diagram">Team Block Diagram</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../tbg.png" data-desc-position="bottom"><img alt="team software" src="../tbg.png"></a>
-<em>Block Diagram PDF: <a href="../Team307_Block_Diagram.drawio.pdf">Download here</a></em></p>
-<p>The block diagram as a team, we decided that pin 8 would be shared ground so ensure stable connection throughout the communication when adding together all the components. Furthermore, shared power is through pin 1, The team decided to have pin 2 as the uart pin, and pin 8 is the shared ground. With that the block diagram is divided up into 6 subsystems that connect through a daisy chain loop. JT subsystem is sending a digital signal connection to Garret subsystem as well as sending data out to Zane subsystem. Zane subsystem is storing the data given from JT subsystem as well as computing data from a temperature sesor and displays both data's to Abriana OLED subsystem. Abriana subsystem also is sending data out to Garrets subsystem. garret subsystem sends digital signal to 8 pin connector onto Donovan subsystem. Donovan subsystem `takes the digital data, then makes the Uart from the subsystem and sends that data to Elisabeth subsystem. Elisabeth subsystem takes the data recieved from Donovan subsystem along with computing pressure sensor values, sends the data to  Abriana subsystem where the data is stored and then displayed on the OLED in  Abriana subsystem.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../FinalZBlock.png" data-desc-position="bottom"><img alt="Team Block" src="../FinalZBlock.png"></a>
+<em>Block Diagram PDF: <a href="../FinalZBlock.pdf">Download here</a></em></p>
+<p><em>Website Link to Diagram: <a href="https://app.diagrams.net/#G1TzR9Rzn8crqcAduowQvzkdC1z6Y6g4mR#%7B%22pageId%22%3A%22ghmqmM-_OBGlNxdhGzXK%22%7D">Download Here</a></em></p>
+<p>The team’s block diagram was designed with pin 8 as a shared ground to ensure a stable connection across all components during communication. Additionally, pin 1 is used for shared power, and pin 2 is designated as the UART communication pin.</p>
+<p>The system is divided into six subsystems connected in a daisy-chain loop. The JT subsystem sends a digital signal to the Garret subsystem and transmits data to the Zane subsystem. The Zane subsystem stores the data received from JT, processes data from a temperature sensor, and sends both sets of data to the Abriana OLED subsystem for display.</p>
+<p>The Abriana subsystem also transmits data to the Garret subsystem. The Garret subsystem then sends a digital signal through the 8-pin connector to the Donovan subsystem. The Donovan subsystem receives this digital data, converts it into UART format, and forwards it to the Elisabeth subsystem.</p>
+<p>Finally, the Elisabeth subsystem processes the data received from Donovan along with pressure sensor readings, then sends the combined data back to the Abriana subsystem, where it is stored and displayed on the OLED.</p>
 <h2 id="sequence-diagram-of-team-communication">Sequence Diagram of Team Communication</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../307api.png" data-desc-position="bottom"><img alt="Team Software" src="../307api.png"></a>
- <em>Sequence Diagram draw.io: <a href="https://app.diagrams.net/?src=about#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D">website</a></em></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../307api.png" data-desc-position="bottom"><img alt="Team Software" src="../307api.png"></a></p>
+<p><em>Sequence Diagram draw.io: <a href="https://app.diagrams.net/?src=about#G16IhPEk2CgQ-QdMvY7qi-FTfsWQHPuqO4#%7B%22pageId%22%3A%22t7_Y112LHUEoPPghb1Yn%22%7D">website</a></em></p>
+<p><em>PDF of the Sequence Diagram: <a href="../System.pdf">PDF Sequence</a></em></p>
 <p>This sequence diagram illustrates the interactions within our sensor-driven submersible. The system continuously reads sensor data to calculate speed and position, avoid obstacles, and measure ambient water temperature and pressure. Additionally, this information is displayed on an onboard OLED screen. The loop ensures ongoing updates of sensor readings and motor adjustments when obstacles are detected. Overall, the diagram shows a coordinated flow of data throughout the system among its 6 parts.</p>
-<h2 id="message-proctol">Message proctol</h2>
+<h2 id="message-protocol">Message Protocol</h2>
 <p>Team 307's message protocol is as follows. The first and second bytes of every message sent through the UART will be 'AZ'. Followed by a third byte, the sender ID, which is just the sender's capitalized initial. The fourth is the receiver ID, the receiver's capitalized initial. The following bytes contain data defined by the types in the section below. Then the end of the message will be two bytes that write out 'YB'. Additionally, no messages will exceed 64 bytes.</p>
 <p>An example of a message sent between devices is "AZEAHelloYB".</p>
 <p>The list of sender/receiver IDs is "A, D, E, G, J, and Z."</p>
@@ -1444,25 +1449,26 @@
 </tbody>
 </table>
 <h2 id="5-biggest-software-changes">5 Biggest Software Changes</h2>
-<h3 id="pass-through-logic">Pass through logic</h3>
+<h3 id="pass-through-logic">Pass-Through Logic</h3>
 <ul>
-<li>Initially the design only considered sending and receiving messages but was updated to include pass through logic, where each board checks if the message is for itself or another team member. If not the message is forwarded and necessary to support the daisy chain.</li>
+<li>Initially, the design only supported sending and receiving messages. It was later updated to include pass-through logic, where each board checks whether a message is intended for itself or another subsystem. If the message is not intended for that board, it is forwarded along the chain. This functionality is essential for supporting the daisy-chain architecture.</li>
 </ul>
-<h3 id="switched-sensor-to-change-only-when-state-changes-instead-of-continously">Switched Sensor to Change only when state changes instead of continously</h3>
+<h3 id="state-based-sensor-transmission">State-Based Sensor Transmission</h3>
 <ul>
-<li>The system continuously transmitted STOP, SLOW, and FAST states but during development, this was modified so that messages are only sent when the state changes. This reduced unnecessary communication traffic.</li>
+<li>The system originally transmitted STOP, SLOW, and FAST states continuously. During development, this was modified so that messages are only sent when the state changes. This significantly reduced unnecessary communication traffic.</li>
 </ul>
-<h3 id="removed-mqtt-from-the-final-design">Removed MQTT from the final design</h3>
+<h3 id="removal-of-mqtt-from-the-final-design">Removal of MQTT from the Final Design</h3>
 <ul>
-<li>The original software design used MQTT for wireless communication and remote monitoring. However the team was not able to complete the MQTT setup in time, so it was removed from the final working version. The final design instead relies on the UART protocol for communication between subsystems. This kept the system simpler and reliable for the final demo. MQTT remains a possible future improvement for remote monitoring and cloud data logging.</li>
+<li>The original software design included MQTT for wireless communication and remote monitoring. However, the team was unable to complete the MQTT setup in time, so it was removed from the final working version. The system now relies on the UART protocol for communication between subsystems, making it simpler and more reliable for the final demonstration. MQTT remains a potential future improvement for remote monitoring and cloud data logging.</li>
 </ul>
-<h3 id="refined-message-structure-for-reliability">Refined message structure for reliability</h3>
+<h3 id="refined-message-structure-for-reliability">Refined Message Structure for Reliability</h3>
 <ul>
-<li>The initial message structure was basic, but during development it was refined to include consistent start and end markers (AZ and YB), sender and receiver IDs, and properly formatted data fields. These improvements made debugging easier and ensured messages were not misread or corrupted during transmission between subsystems.</li>
+<li>The initial message structure was basic, but it was refined during development to include consistent start and end markers (AZ and YB), sender and receiver IDs, and properly formatted data fields. These improvements made debugging easier and ensured messages were not misread or corrupted during transmission between subsystems.
+Motor Function Red</li>
 </ul>
-<h3 id="motor-function">Motor Function</h3>
+<h3 id="motor-function-redesign">Motor Function Redesign</h3>
 <ul>
-<li>In our first verison, JT subsystem was directly connected to Garrets motor, not daisy chained hoeever that was scrapped. It was deterermined it was easy to communicate over UART with the team RX/TX pins. This reduced coding and helped clean up communcation.</li>
+<li>In the initial version, the JT subsystem was directly connected to Garret’s motor and was not part of the daisy-chain system. This approach was later scrapped. It was determined that using UART communication through the team’s RX/TX pins was more effective. This change simplified the code and improved overall communication organization.</li>
 </ul>
 
 
