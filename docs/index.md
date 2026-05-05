@@ -21,12 +21,12 @@ Kevin Nichols
 
 > We are a team of engineering students from Arizona State University, united by a vision to transform innovative embedded systems concepts into practical, mission-ready solutions. Our work emphasizes
 > disciplined engineering design, systems integration, and technical rigor. In lieu of the project description centering on an exploration device, we have selected a submersible exploration device as the focus of our design,
-> drawing inspiration from established exploration platforms such as probes, orbiters, landers, rovers, and tactical robotic systems..<br>
+> drawing inspiration from established exploration platforms such as probes, orbiters, landers, rovers, and tactical robotic systems...<br>
 ![Project](314prez.png)
 
 ## Project Summary
 
-An underwater exploration device that navigates through aquatic environments while detecting and avoiding obstacles. It collects real time data such as water pressure, temperature and system performance and displays this information to the user. The system combines multiple sensors and communication between subsystems to support safe navigation and environmental monitoring.
+An underwater exploration device that navigates through aquatic environments while detecting and avoiding obstacles. It collects real-time data, such as water pressure, temperature, and system performance, and displays this information to the user. The system integrates multiple sensors and enables communication between subsystems to support safe navigation and environmental monitoring.
 
 ## Team Members Datasheet links
 
