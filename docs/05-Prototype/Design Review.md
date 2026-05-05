@@ -12,6 +12,9 @@ This video is a showcase of Team 307's website and what has been accomplished th
 ![Poster](307-poster.jpg)
 *Poster PDF: [Download here](307-poster.pdf)*
 
+## All PCBs Linked Together
+![Linked](IMG_20260504_221101(1).png)
+
 ## Final Design Concept Visual
 
 ![Design](bullpic307.png)
