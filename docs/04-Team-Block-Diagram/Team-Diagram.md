@@ -16,11 +16,11 @@ For our teams’s system, we built it using a daisy chain system where each team
 
 The team’s block diagram was designed with pin 8 as a shared ground to ensure a stable connection across all components during communication. Additionally, pin 1 is used for shared power, and pin 2 is designated as the UART communication pin.
 
-The system is divided into six subsystems connected in a daisy-chain loop. The JT subsystem sends a digital signal to the Garret subsystem and transmits data to the Zane subsystem. The Zane subsystem stores the data received from JT, processes data from a temperature sensor, and sends both sets of data to the Abriana OLED subsystem for display.
+The system is divided into six subsystems connected in a daisy-chain loop. The JT subsystem sends a digital signal to Garret's subsystem and transmits data to Zane's subsystem. Zane's subsystem stores the data received from JT, processes data from a temperature sensor, and sends both sets of data to Abriana's OLED subsystem for display.
 
-The Abriana subsystem also transmits data to the Garret subsystem. The Garret subsystem then sends a digital signal through the 8-pin connector to the Donovan subsystem. The Donovan subsystem receives this digital data, converts it into UART format, and forwards it to the Elisabeth subsystem.
+Abriana's subsystem also transmits data to Garret's subsystem. Garret's subsystem then sends a digital signal through the 8-pin connector to the Donovan subsystem. Don's subsystem receives this digital data, converts it into UART format, and forwards it to Elisabeth's subsystem.
 
-Finally, the Elisabeth subsystem processes the data received from Donovan along with pressure sensor readings, then sends the combined data back to the Abriana subsystem, where it is stored and displayed on the OLED.
+Finally, Elisabeth's subsystem processes the data received from Donovan along with pressure sensor readings, then sends the combined data back to the Abriana subsystem, where it is stored and displayed on the OLED.
 
 ## Sequence Diagram of Team Communication
 
