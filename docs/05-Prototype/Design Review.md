@@ -16,8 +16,9 @@ This video is a showcase of Team 307's website and what has been accomplished th
 ![Design](bullpic307.png)
 
 <div style="text-align: center;">
-  <video controls style="width: 100%; max-width: 700px;">
-    <source src="video307.mp4" type="video/mp4">
+  <video controls preload="metadata" style="width: 100%; max-width: 700px;">
+    <source src="./video307.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 </div>
 
